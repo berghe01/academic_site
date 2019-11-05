@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>N. S. Fox | </title>
+    <link>/authors/n.-s.-fox/</link>
+      <atom:link href="/authors/n.-s.-fox/index.xml" rel="self" type="application/rss+xml" />
+    <description>N. S. Fox</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>N. S. Fox</title>
+      <link>/authors/n.-s.-fox/</link>
+    </image>
+    
+    <item>
+      <title>Emergent primary cesarean delivery and maternal operative morbidity</title>
+      <link>/publication/journal-article/2019-01-01_emergent_primary_ces/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2019-01-01_emergent_primary_ces/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Accuracy of sonographic estimated fetal weight in suspected macrosomia: the likelihood of overestimating and underestimating the true birthweight</title>
+      <link>/publication/journal-article/2018-01-01_accuracy_of_sonograp/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2018-01-01_accuracy_of_sonograp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The association between maternal biomarkers and pathways to preterm birth in twin pregnancies</title>
+      <link>/publication/journal-article/2015-01-01_the_association_betw/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2015-01-01_the_association_betw/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

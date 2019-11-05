@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>E. Bergh | </title>
+    <link>/authors/e.-bergh/</link>
+      <atom:link href="/authors/e.-bergh/index.xml" rel="self" type="application/rss+xml" />
+    <description>E. Bergh</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>E. Bergh</title>
+      <link>/authors/e.-bergh/</link>
+    </image>
+    
+    <item>
+      <title>Clinical Monitoring of Sacrococcygeal Teratoma</title>
+      <link>/publication/journal-article/2019-01-01_clinical_monitoring_/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2019-01-01_clinical_monitoring_/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Accuracy of sonographic estimated fetal weight in suspected macrosomia: the likelihood of overestimating and underestimating the true birthweight</title>
+      <link>/publication/journal-article/2018-01-01_accuracy_of_sonograp/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2018-01-01_accuracy_of_sonograp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multiple thrombophilic single nucleotide polymorphisms lack a significant effect on outcomes in fresh IVF cycles: an analysis of 1717 patients</title>
+      <link>/publication/journal-article/2016-01-01_multiple_thrombophil/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2016-01-01_multiple_thrombophil/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The association between maternal biomarkers and pathways to preterm birth in twin pregnancies</title>
+      <link>/publication/journal-article/2015-01-01_the_association_betw/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2015-01-01_the_association_betw/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

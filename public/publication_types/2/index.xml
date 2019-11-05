@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2 | Academic</title>
+    <title>2 | </title>
     <link>/publication_types/2/</link>
       <atom:link href="/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Sep 2015 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>2</title>
@@ -13,24 +13,59 @@
     </image>
     
     <item>
-      <title>An example journal article</title>
-      <link>/publication/journal-article/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/journal-article/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <title>Clinical Monitoring of Sacrococcygeal Teratoma</title>
+      <link>/publication/journal-article/2019-01-01_clinical_monitoring_/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2019-01-01_clinical_monitoring_/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Distance Traveled to a Fetal Center and Pregnancy Outcomes in Twin-Twin Transfusion Syndrome</title>
+      <link>/publication/journal-article/2019-01-01_distance_traveled_to/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2019-01-01_distance_traveled_to/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effect of intra-amniotic fluid pressure from polyhydramnios on cervical length in patients with twin-twin transfusion syndrome undergoing fetoscopic laser surgery</title>
+      <link>/publication/journal-article/2019-01-01_effect_of_intra-amni/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2019-01-01_effect_of_intra-amni/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emergent primary cesarean delivery and maternal operative morbidity</title>
+      <link>/publication/journal-article/2019-01-01_emergent_primary_ces/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2019-01-01_emergent_primary_ces/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Accuracy of sonographic estimated fetal weight in suspected macrosomia: the likelihood of overestimating and underestimating the true birthweight</title>
+      <link>/publication/journal-article/2018-01-01_accuracy_of_sonograp/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2018-01-01_accuracy_of_sonograp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multiple thrombophilic single nucleotide polymorphisms lack a significant effect on outcomes in fresh IVF cycles: an analysis of 1717 patients</title>
+      <link>/publication/journal-article/2016-01-01_multiple_thrombophil/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2016-01-01_multiple_thrombophil/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The association between maternal biomarkers and pathways to preterm birth in twin pregnancies</title>
+      <link>/publication/journal-article/2015-01-01_the_association_betw/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2015-01-01_the_association_betw/</guid>
+      <description></description>
     </item>
     
   </channel>

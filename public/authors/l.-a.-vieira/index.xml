@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>L. A. Vieira | </title>
+    <link>/authors/l.-a.-vieira/</link>
+      <atom:link href="/authors/l.-a.-vieira/index.xml" rel="self" type="application/rss+xml" />
+    <description>L. A. Vieira</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>L. A. Vieira</title>
+      <link>/authors/l.-a.-vieira/</link>
+    </image>
+    
+    <item>
+      <title>Emergent primary cesarean delivery and maternal operative morbidity</title>
+      <link>/publication/journal-article/2019-01-01_emergent_primary_ces/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2019-01-01_emergent_primary_ces/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

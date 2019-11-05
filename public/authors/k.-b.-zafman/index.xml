@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>K. B. Zafman | </title>
+    <link>/authors/k.-b.-zafman/</link>
+      <atom:link href="/authors/k.-b.-zafman/index.xml" rel="self" type="application/rss+xml" />
+    <description>K. B. Zafman</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>K. B. Zafman</title>
+      <link>/authors/k.-b.-zafman/</link>
+    </image>
+    
+    <item>
+      <title>Accuracy of sonographic estimated fetal weight in suspected macrosomia: the likelihood of overestimating and underestimating the true birthweight</title>
+      <link>/publication/journal-article/2018-01-01_accuracy_of_sonograp/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2018-01-01_accuracy_of_sonograp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

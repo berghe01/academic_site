@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>S. Oppal | </title>
+    <link>/authors/s.-oppal/</link>
+      <atom:link href="/authors/s.-oppal/index.xml" rel="self" type="application/rss+xml" />
+    <description>S. Oppal</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>S. Oppal</title>
+      <link>/authors/s.-oppal/</link>
+    </image>
+    
+    <item>
+      <title>The association between maternal biomarkers and pathways to preterm birth in twin pregnancies</title>
+      <link>/publication/journal-article/2015-01-01_the_association_betw/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2015-01-01_the_association_betw/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

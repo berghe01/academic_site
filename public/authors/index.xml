@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors | Academic</title>
+    <title>Authors | </title>
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
@@ -15,17 +15,273 @@
     <item>
       <title></title>
       <link>/authors/admin/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       <guid>/authors/admin/</guid>
       <description>&lt;p&gt;Eric Bergh is a high-risk pregnancy and fetal intervention specialist at the McGovern School of Medicine in Houston, TX. His interests include prenatal diagnosis and fetal intervention / fetal surgery. In addition to providing clinical care, Dr. Bergh is interested in data science, Rstats and EHR systems integration.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Robert Ford</title>
-      <link>/authors/robert-ford/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>/authors/robert-ford/</guid>
+      <title>A. Johnson</title>
+      <link>/authors/a.-johnson/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/a.-johnson/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C. A. Bigelow</title>
+      <link>/authors/c.-a.-bigelow/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/c.-a.-bigelow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C. Bell</title>
+      <link>/authors/c.-bell/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/c.-bell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C. S. Bell</title>
+      <link>/authors/c.-s.-bell/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/c.-s.-bell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C. Wohlmuth</title>
+      <link>/authors/c.-wohlmuth/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/c.-wohlmuth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>E. Bergh</title>
+      <link>/authors/e.-bergh/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/e.-bergh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>E. P. Bergh</title>
+      <link>/authors/e.-p.-bergh/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/e.-p.-bergh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>H. M. Gardiner</title>
+      <link>/authors/h.-m.-gardiner/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/h.-m.-gardiner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>I. Averiss</title>
+      <link>/authors/i.-averiss/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/i.-averiss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>I. Wohlmuth-Wieser</title>
+      <link>/authors/i.-wohlmuth-wieser/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/i.-wohlmuth-wieser/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>J. R. Overbey</title>
+      <link>/authors/j.-r.-overbey/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/j.-r.-overbey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jphm {van den Wijngaard}</title>
+      <link>/authors/jphm-van-den-wijngaard/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/jphm-van-den-wijngaard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jr. {Moise K. J.}</title>
+      <link>/authors/jr.-moise-k.-j./</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/jr.-moise-k.-j./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>L. A. Vieira</title>
+      <link>/authors/l.-a.-vieira/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/l.-a.-vieira/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>L. K. Mann</title>
+      <link>/authors/l.-k.-mann/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/l.-k.-mann/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>M. J. C. {van Gemert}</title>
+      <link>/authors/m.-j.-c.-van-gemert/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/m.-j.-c.-van-gemert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>N. S. Fox</title>
+      <link>/authors/n.-s.-fox/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/n.-s.-fox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R. Donepudi</title>
+      <link>/authors/r.-donepudi/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/r.-donepudi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R. Jain</title>
+      <link>/authors/r.-jain/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/r.-jain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R. Papanna</title>
+      <link>/authors/r.-papanna/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/r.-papanna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K. B. Zafman</title>
+      <link>/authors/k.-b.-zafman/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/authors/k.-b.-zafman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A. Lonczak</title>
+      <link>/authors/a.-lonczak/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/a.-lonczak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>E. J. Forman</title>
+      <link>/authors/e.-j.-forman/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/e.-j.-forman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>G. Patounakis</title>
+      <link>/authors/g.-patounakis/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/g.-patounakis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>J. M. Franasiak</title>
+      <link>/authors/j.-m.-franasiak/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/j.-m.-franasiak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jr. {Scott R. T.}</title>
+      <link>/authors/jr.-scott-r.-t./</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/jr.-scott-r.-t./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>N. Treff</title>
+      <link>/authors/n.-treff/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/n.-treff/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>X. Tao</title>
+      <link>/authors/x.-tao/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/x.-tao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A. Rebarber</title>
+      <link>/authors/a.-rebarber/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/a.-rebarber/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C. K. Klauser</title>
+      <link>/authors/c.-k.-klauser/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/c.-k.-klauser/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>D. H. Saltzman</title>
+      <link>/authors/d.-h.-saltzman/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/d.-h.-saltzman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>S. Gupta</title>
+      <link>/authors/s.-gupta/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/s.-gupta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>S. Oppal</title>
+      <link>/authors/s.-oppal/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/s.-oppal/</guid>
       <description></description>
     </item>
     
