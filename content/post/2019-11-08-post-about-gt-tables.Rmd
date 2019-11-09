@@ -53,8 +53,7 @@ mtcars %>%
     summarize(N = n()) %>%
     mutate(Frequency = N/sum(N),
            Frequency = round(Frequency, 2)) %>%
-    gt() %>%
-    tab_stubhead(label = "Cylinders") 
+    gt() 
 ```
 
 &nbsp;  

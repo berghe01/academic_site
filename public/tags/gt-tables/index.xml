@@ -52,13 +52,12 @@ Step 3: Lets add some {gt} magic…getting better&lt;/p&gt;
     summarize(N = n()) %&amp;gt;%
     mutate(Frequency = N/sum(N),
            Frequency = round(Frequency, 2)) %&amp;gt;%
-    gt() %&amp;gt;%
-    tab_stubhead(label = &amp;quot;Cylinders&amp;quot;) &lt;/code&gt;&lt;/pre&gt;
+    gt() &lt;/code&gt;&lt;/pre&gt;
 &lt;style&gt;html {
   font-family: -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, Oxygen, Ubuntu, Cantarell, &#39;Helvetica Neue&#39;, &#39;Fira Sans&#39;, &#39;Droid Sans&#39;, Arial, sans-serif;
 }
 
-#nbtrjwkjea .gt_table {
+#pblqhpnhyp .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -83,13 +82,13 @@ Step 3: Lets add some {gt} magic…getting better&lt;/p&gt;
   /* table.border.bottom.color */
 }
 
-#nbtrjwkjea .gt_heading {
+#pblqhpnhyp .gt_heading {
   background-color: #FFFFFF;
   /* heading.background.color */
   border-bottom-color: #FFFFFF;
 }
 
-#nbtrjwkjea .gt_title {
+#pblqhpnhyp .gt_title {
   color: #333333;
   font-size: 125%;
   /* heading.title.font.size */
@@ -100,7 +99,7 @@ Step 3: Lets add some {gt} magic…getting better&lt;/p&gt;
   border-bottom-width: 0;
 }
 
-#nbtrjwkjea .gt_subtitle {
+#pblqhpnhyp .gt_subtitle {
   color: #333333;
   font-size: 85%;
   /* heading.subtitle.font.size */
@@ -111,7 +110,7 @@ Step 3: Lets add some {gt} magic…getting better&lt;/p&gt;
   border-top-width: 0;
 }
 
-#nbtrjwkjea .gt_bottom_border {
+#pblqhpnhyp .gt_bottom_border {
   border-bottom-style: solid;
   /* heading.border.bottom.style */
   border-bottom-width: 2px;
@@ -120,7 +119,7 @@ Step 3: Lets add some {gt} magic…getting better&lt;/p&gt;
   /* heading.border.bottom.color */
 }
 
-#nbtrjwkjea .gt_column_spanner {
+#pblqhpnhyp .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -128,7 +127,7 @@ Step 3: Lets add some {gt} magic…getting better&lt;/p&gt;
   padding-bottom: 4px;
 }
 
-#nbtrjwkjea .gt_col_heading {
+#pblqhpnhyp .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   /* column_labels.background.color */
@@ -142,23 +141,23 @@ Step 3: Lets add some {gt} magic…getting better&lt;/p&gt;
   overflow-x: hidden;
 }
 
-#nbtrjwkjea .gt_columns_top_border {
+#pblqhpnhyp .gt_columns_top_border {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
 }
 
-#nbtrjwkjea .gt_columns_bottom_border {
+#pblqhpnhyp .gt_columns_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#nbtrjwkjea .gt_sep_right {
+#pblqhpnhyp .gt_sep_right {
   border-right: 5px solid #FFFFFF;
 }
 
-#nbtrjwkjea .gt_group_heading {
+#pblqhpnhyp .gt_group_heading {
   padding: 8px;
   /* row_group.padding */
   color: #333333;
@@ -183,7 +182,7 @@ Step 3: Lets add some {gt} magic…getting better&lt;/p&gt;
   vertical-align: middle;
 }
 
-#nbtrjwkjea .gt_empty_group_heading {
+#pblqhpnhyp .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -207,19 +206,19 @@ Step 3: Lets add some {gt} magic…getting better&lt;/p&gt;
   vertical-align: middle;
 }
 
-#nbtrjwkjea .gt_striped {
+#pblqhpnhyp .gt_striped {
   background-color: #8080800D;
 }
 
-#nbtrjwkjea .gt_from_md &gt; :first-child {
+#pblqhpnhyp .gt_from_md &gt; :first-child {
   margin-top: 0;
 }
 
-#nbtrjwkjea .gt_from_md &gt; :last-child {
+#pblqhpnhyp .gt_from_md &gt; :last-child {
   margin-bottom: 0;
 }
 
-#nbtrjwkjea .gt_row {
+#pblqhpnhyp .gt_row {
   padding-top: 8px;
   /* row.padding */
   padding-bottom: 8px;
@@ -234,14 +233,14 @@ Step 3: Lets add some {gt} magic…getting better&lt;/p&gt;
   overflow-x: hidden;
 }
 
-#nbtrjwkjea .gt_stub {
+#pblqhpnhyp .gt_stub {
   border-right-style: solid;
   border-right-width: 2px;
   border-right-color: #D3D3D3;
   padding-left: 12px;
 }
 
-#nbtrjwkjea .gt_summary_row {
+#pblqhpnhyp .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   /* summary_row.background.color */
@@ -255,7 +254,7 @@ Step 3: Lets add some {gt} magic…getting better&lt;/p&gt;
   /* summary_row.text_transform */
 }
 
-#nbtrjwkjea .gt_grand_summary_row {
+#pblqhpnhyp .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   /* grand_summary_row.background.color */
@@ -269,7 +268,7 @@ Step 3: Lets add some {gt} magic…getting better&lt;/p&gt;
   /* grand_summary_row.text_transform */
 }
 
-#nbtrjwkjea .gt_first_summary_row {
+#pblqhpnhyp .gt_first_summary_row {
   padding-top: 8px;
   /* summary_row.padding */
   padding-bottom: 8px;
@@ -281,7 +280,7 @@ Step 3: Lets add some {gt} magic…getting better&lt;/p&gt;
   border-top-color: #D3D3D3;
 }
 
-#nbtrjwkjea .gt_first_grand_summary_row {
+#pblqhpnhyp .gt_first_grand_summary_row {
   padding-top: 8px;
   /* grand_summary_row.padding */
   padding-bottom: 8px;
@@ -293,7 +292,7 @@ Step 3: Lets add some {gt} magic…getting better&lt;/p&gt;
   border-top-color: #D3D3D3;
 }
 
-#nbtrjwkjea .gt_table_body {
+#pblqhpnhyp .gt_table_body {
   border-top-style: solid;
   /* table_body.border.top.style */
   border-top-width: 2px;
@@ -308,7 +307,7 @@ Step 3: Lets add some {gt} magic…getting better&lt;/p&gt;
   /* table_body.border.bottom.color */
 }
 
-#nbtrjwkjea .gt_footnotes {
+#pblqhpnhyp .gt_footnotes {
   border-top-style: solid;
   /* footnotes.border.top.style */
   border-top-width: 2px;
@@ -317,7 +316,7 @@ Step 3: Lets add some {gt} magic…getting better&lt;/p&gt;
   /* footnotes.border.top.color */
 }
 
-#nbtrjwkjea .gt_footnote {
+#pblqhpnhyp .gt_footnote {
   font-size: 90%;
   /* footnote.font.size */
   margin: 0px;
@@ -325,7 +324,7 @@ Step 3: Lets add some {gt} magic…getting better&lt;/p&gt;
   /* footnote.padding */
 }
 
-#nbtrjwkjea .gt_sourcenotes {
+#pblqhpnhyp .gt_sourcenotes {
   border-top-style: solid;
   /* sourcenotes.border.top.style */
   border-top-width: 2px;
@@ -334,48 +333,48 @@ Step 3: Lets add some {gt} magic…getting better&lt;/p&gt;
   /* sourcenotes.border.top.color */
 }
 
-#nbtrjwkjea .gt_sourcenote {
+#pblqhpnhyp .gt_sourcenote {
   font-size: 90%;
   /* sourcenote.font.size */
   padding: 4px;
   /* sourcenote.padding */
 }
 
-#nbtrjwkjea .gt_center {
+#pblqhpnhyp .gt_center {
   text-align: center;
 }
 
-#nbtrjwkjea .gt_left {
+#pblqhpnhyp .gt_left {
   text-align: left;
 }
 
-#nbtrjwkjea .gt_right {
+#pblqhpnhyp .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#nbtrjwkjea .gt_font_normal {
+#pblqhpnhyp .gt_font_normal {
   font-weight: normal;
 }
 
-#nbtrjwkjea .gt_font_bold {
+#pblqhpnhyp .gt_font_bold {
   font-weight: bold;
 }
 
-#nbtrjwkjea .gt_font_italic {
+#pblqhpnhyp .gt_font_italic {
   font-style: italic;
 }
 
-#nbtrjwkjea .gt_super {
+#pblqhpnhyp .gt_super {
   font-size: 65%;
 }
 
-#nbtrjwkjea .gt_footnote_marks {
+#pblqhpnhyp .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 &lt;/style&gt;
-&lt;div id=&#34;nbtrjwkjea&#34; style=&#34;overflow-x:auto;overflow-y:auto;width:auto;height:auto;&#34;&gt;&lt;table class=&#34;gt_table&#34;&gt;
+&lt;div id=&#34;pblqhpnhyp&#34; style=&#34;overflow-x:auto;overflow-y:auto;width:auto;height:auto;&#34;&gt;&lt;table class=&#34;gt_table&#34;&gt;
   
   &lt;tr&gt;
     &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_right&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34;&gt;cyl&lt;/th&gt;
@@ -441,7 +440,7 @@ Step 4: Ok, now adding some bells and whistles, we can really make this table sh
   font-family: -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, Oxygen, Ubuntu, Cantarell, &#39;Helvetica Neue&#39;, &#39;Fira Sans&#39;, &#39;Droid Sans&#39;, Arial, sans-serif;
 }
 
-#tiiukpehte .gt_table {
+#fxhsjrcpws .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -466,13 +465,13 @@ Step 4: Ok, now adding some bells and whistles, we can really make this table sh
   /* table.border.bottom.color */
 }
 
-#tiiukpehte .gt_heading {
+#fxhsjrcpws .gt_heading {
   background-color: #aa6f73;
   /* heading.background.color */
   border-bottom-color: #FFFFFF;
 }
 
-#tiiukpehte .gt_title {
+#fxhsjrcpws .gt_title {
   color: #FFFFFF;
   font-size: 24px;
   /* heading.title.font.size */
@@ -483,7 +482,7 @@ Step 4: Ok, now adding some bells and whistles, we can really make this table sh
   border-bottom-width: 0;
 }
 
-#tiiukpehte .gt_subtitle {
+#fxhsjrcpws .gt_subtitle {
   color: #FFFFFF;
   font-size: 22px;
   /* heading.subtitle.font.size */
@@ -494,7 +493,7 @@ Step 4: Ok, now adding some bells and whistles, we can really make this table sh
   border-top-width: 0;
 }
 
-#tiiukpehte .gt_bottom_border {
+#fxhsjrcpws .gt_bottom_border {
   border-bottom-style: solid;
   /* heading.border.bottom.style */
   border-bottom-width: 2px;
@@ -503,7 +502,7 @@ Step 4: Ok, now adding some bells and whistles, we can really make this table sh
   /* heading.border.bottom.color */
 }
 
-#tiiukpehte .gt_column_spanner {
+#fxhsjrcpws .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -511,7 +510,7 @@ Step 4: Ok, now adding some bells and whistles, we can really make this table sh
   padding-bottom: 4px;
 }
 
-#tiiukpehte .gt_col_heading {
+#fxhsjrcpws .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   /* column_labels.background.color */
@@ -525,23 +524,23 @@ Step 4: Ok, now adding some bells and whistles, we can really make this table sh
   overflow-x: hidden;
 }
 
-#tiiukpehte .gt_columns_top_border {
+#fxhsjrcpws .gt_columns_top_border {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
 }
 
-#tiiukpehte .gt_columns_bottom_border {
+#fxhsjrcpws .gt_columns_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#tiiukpehte .gt_sep_right {
+#fxhsjrcpws .gt_sep_right {
   border-right: 5px solid #FFFFFF;
 }
 
-#tiiukpehte .gt_group_heading {
+#fxhsjrcpws .gt_group_heading {
   padding: 8px;
   /* row_group.padding */
   color: #333333;
@@ -566,7 +565,7 @@ Step 4: Ok, now adding some bells and whistles, we can really make this table sh
   vertical-align: middle;
 }
 
-#tiiukpehte .gt_empty_group_heading {
+#fxhsjrcpws .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -590,19 +589,19 @@ Step 4: Ok, now adding some bells and whistles, we can really make this table sh
   vertical-align: middle;
 }
 
-#tiiukpehte .gt_striped {
+#fxhsjrcpws .gt_striped {
   background-color: #8080800D;
 }
 
-#tiiukpehte .gt_from_md &gt; :first-child {
+#fxhsjrcpws .gt_from_md &gt; :first-child {
   margin-top: 0;
 }
 
-#tiiukpehte .gt_from_md &gt; :last-child {
+#fxhsjrcpws .gt_from_md &gt; :last-child {
   margin-bottom: 0;
 }
 
-#tiiukpehte .gt_row {
+#fxhsjrcpws .gt_row {
   padding-top: 8px;
   /* row.padding */
   padding-bottom: 8px;
@@ -617,14 +616,14 @@ Step 4: Ok, now adding some bells and whistles, we can really make this table sh
   overflow-x: hidden;
 }
 
-#tiiukpehte .gt_stub {
+#fxhsjrcpws .gt_stub {
   border-right-style: solid;
   border-right-width: 2px;
   border-right-color: #D3D3D3;
   padding-left: 12px;
 }
 
-#tiiukpehte .gt_summary_row {
+#fxhsjrcpws .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   /* summary_row.background.color */
@@ -638,7 +637,7 @@ Step 4: Ok, now adding some bells and whistles, we can really make this table sh
   /* summary_row.text_transform */
 }
 
-#tiiukpehte .gt_grand_summary_row {
+#fxhsjrcpws .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   /* grand_summary_row.background.color */
@@ -652,7 +651,7 @@ Step 4: Ok, now adding some bells and whistles, we can really make this table sh
   /* grand_summary_row.text_transform */
 }
 
-#tiiukpehte .gt_first_summary_row {
+#fxhsjrcpws .gt_first_summary_row {
   padding-top: 8px;
   /* summary_row.padding */
   padding-bottom: 8px;
@@ -664,7 +663,7 @@ Step 4: Ok, now adding some bells and whistles, we can really make this table sh
   border-top-color: #D3D3D3;
 }
 
-#tiiukpehte .gt_first_grand_summary_row {
+#fxhsjrcpws .gt_first_grand_summary_row {
   padding-top: 8px;
   /* grand_summary_row.padding */
   padding-bottom: 8px;
@@ -676,7 +675,7 @@ Step 4: Ok, now adding some bells and whistles, we can really make this table sh
   border-top-color: #D3D3D3;
 }
 
-#tiiukpehte .gt_table_body {
+#fxhsjrcpws .gt_table_body {
   border-top-style: solid;
   /* table_body.border.top.style */
   border-top-width: 2px;
@@ -691,7 +690,7 @@ Step 4: Ok, now adding some bells and whistles, we can really make this table sh
   /* table_body.border.bottom.color */
 }
 
-#tiiukpehte .gt_footnotes {
+#fxhsjrcpws .gt_footnotes {
   border-top-style: solid;
   /* footnotes.border.top.style */
   border-top-width: 2px;
@@ -700,7 +699,7 @@ Step 4: Ok, now adding some bells and whistles, we can really make this table sh
   /* footnotes.border.top.color */
 }
 
-#tiiukpehte .gt_footnote {
+#fxhsjrcpws .gt_footnote {
   font-size: 90%;
   /* footnote.font.size */
   margin: 0px;
@@ -708,7 +707,7 @@ Step 4: Ok, now adding some bells and whistles, we can really make this table sh
   /* footnote.padding */
 }
 
-#tiiukpehte .gt_sourcenotes {
+#fxhsjrcpws .gt_sourcenotes {
   border-top-style: solid;
   /* sourcenotes.border.top.style */
   border-top-width: 2px;
@@ -717,48 +716,48 @@ Step 4: Ok, now adding some bells and whistles, we can really make this table sh
   /* sourcenotes.border.top.color */
 }
 
-#tiiukpehte .gt_sourcenote {
+#fxhsjrcpws .gt_sourcenote {
   font-size: 90%;
   /* sourcenote.font.size */
   padding: 4px;
   /* sourcenote.padding */
 }
 
-#tiiukpehte .gt_center {
+#fxhsjrcpws .gt_center {
   text-align: center;
 }
 
-#tiiukpehte .gt_left {
+#fxhsjrcpws .gt_left {
   text-align: left;
 }
 
-#tiiukpehte .gt_right {
+#fxhsjrcpws .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#tiiukpehte .gt_font_normal {
+#fxhsjrcpws .gt_font_normal {
   font-weight: normal;
 }
 
-#tiiukpehte .gt_font_bold {
+#fxhsjrcpws .gt_font_bold {
   font-weight: bold;
 }
 
-#tiiukpehte .gt_font_italic {
+#fxhsjrcpws .gt_font_italic {
   font-style: italic;
 }
 
-#tiiukpehte .gt_super {
+#fxhsjrcpws .gt_super {
   font-size: 65%;
 }
 
-#tiiukpehte .gt_footnote_marks {
+#fxhsjrcpws .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 &lt;/style&gt;
-&lt;div id=&#34;tiiukpehte&#34; style=&#34;overflow-x:auto;overflow-y:auto;width:auto;height:auto;&#34;&gt;&lt;table class=&#34;gt_table&#34;&gt;
+&lt;div id=&#34;fxhsjrcpws&#34; style=&#34;overflow-x:auto;overflow-y:auto;width:auto;height:auto;&#34;&gt;&lt;table class=&#34;gt_table&#34;&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th colspan=&#34;3&#34; class=&#34;gt_heading gt_title gt_font_normal gt_center&#34; style&gt;Table 1: MTCARS cyl table&lt;/th&gt;
