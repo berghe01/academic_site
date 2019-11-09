@@ -1,7 +1,7 @@
 +++
 title = "Effect of intra-amniotic fluid pressure from polyhydramnios on cervical length in patients with twin-twin transfusion syndrome undergoing fetoscopic laser surgery"
 date = "2019-01-01"
-authors = ["E. P. Bergh", "L. K. Mann", "R. Jain", "R. Donepudi", "Jr. {Moise K. J.}", "A. Johnson", "R. Papanna"]
+authors = ["E. P. Bergh", "L. K. Mann", "R. Jain", "R. Donepudi", "K.J. Jr. Moise", "A. Johnson", "R. Papanna"]
 publication_types = ["2"]
 publication = "Ultrasound Obstet Gynecol, https://doi.org/10.1002/uog.20228"
 publication_short = "Ultrasound Obstet Gynecol, https://doi.org/10.1002/uog.20228"
