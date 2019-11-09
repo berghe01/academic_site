@@ -15,7 +15,7 @@ image:
   focal_point: ''
   preview_only: no
 projects: [myblog]
-draft: true
+draft: false
 ---
 
 In my job, I make tables *all the time*  
