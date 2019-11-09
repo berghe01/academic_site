@@ -1,0 +1,100 @@
+---
+title: GT tables
+author: ~
+date: '2019-11-08'
+slug: post-about-gt-tables
+categories: [R]
+tags: [Rstats, gt tables, dplyr]
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2019-11-08T22:24:26-06:00'
+featured: yes
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: [myblog]
+draft: true
+---
+
+In my job, I make tables *all the time*  
+
+I recently stumbled upon the {gt} package and whoa... these are some great looking tables! You can check out the vignettes [here](https://gt.rstudio.com/)
+
+Even better, they are simple to append to any dplyr pipeline...
+
+---
+
+Step 1: Load {gt} and {dplyr}  
+```{r echo = TRUE, message = FALSE, warning = FALSE}
+library(gt)
+library(dplyr)
+```
+
+&nbsp;  
+Step 2:  
+
++ Create a simple frequency table, with mtcars, grouped by number of cylinders.  
++ Dplyr is fast and simple to use, but the console output is not so easy on the eyes...  
+```{r echo = TRUE, message = FALSE, warning = FALSE}
+mtcars %>%
+  group_by(cyl) %>%
+  summarize(N = n()) %>%
+  mutate(Frequency = N/sum(N),
+         Frequency = round(Frequency, 2))
+```
+
+&nbsp;  
+Step 3: Lets add some {gt} magic...getting better  
+```{r echo = TRUE, message = FALSE, warning = FALSE}
+mtcars %>%
+    group_by(cyl) %>%
+    summarize(N = n()) %>%
+    mutate(Frequency = N/sum(N),
+           Frequency = round(Frequency, 2)) %>%
+    gt() %>%
+    tab_stubhead(label = "Cylinders") 
+```
+
+&nbsp;  
+Step 4: Ok, now adding some bells and whistles, we can really make this table shine...
+```{r}
+mtcars %>%
+    group_by(cyl) %>%
+    summarize(N = n()) %>%
+    mutate(Frequency = N/sum(N),
+           Frequency = round(Frequency, 2)) %>%
+    gt(rowname_col = "cyl") %>%
+    tab_stubhead(label = "Cylinders") %>%
+  tab_header(
+    title = md("Table 1: MTCARS cyl table"),
+    subtitle = md("Made with {gt} package")
+  ) %>% 
+  tab_footnote(
+    footnote = "Added a footnote",
+    locations = cells_data(
+      columns = vars(N), 
+      row = 1 #add to the row with 4 cylinders
+    )
+  ) %>% 
+  tab_source_note(
+    source_note = "Example 1: Add a source note here"
+  ) %>%
+  tab_source_note(
+    source_note = "Example 2: Add another note/reference here!"
+  ) %>%
+  tab_options(heading.background.color = "#aa6f73", 
+              heading.border.bottom.color = "black", 
+              heading.title.font.size = 24, 
+              heading.subtitle.font.size = 22, 
+              table.width = 370, 
+              table.font.size = 18, 
+              column_labels.font.size = 20) 
+```
+
+&nbps;  
+Done!  
+Simply calling gt() creates the table, then add a few parameters to control the style/font size etc...Voila! You have a fancy gt Table...
+
+

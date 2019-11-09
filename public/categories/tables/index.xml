@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tables | </title>
+    <link>/categories/tables/</link>
+      <atom:link href="/categories/tables/index.xml" rel="self" type="application/rss+xml" />
+    <description>tables</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 08 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>tables</title>
+      <link>/categories/tables/</link>
+    </image>
+    
+    <item>
+      <title>Stylish GT tables</title>
+      <link>/post/post-about-gt-tables/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/post/post-about-gt-tables/</guid>
+      <description>
+
+
+&lt;p&gt;In my job, I make tables &lt;strong&gt;all the time&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I recently stumbled upon the {gt} package and whoa… these are some great looking tables! You can check out the vignettes &lt;a href=&#34;https://gt.rstudio.com/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Even better, they are simple to append to any dplyr pipeline…&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Step 1: Load {gt} and {dplyr}&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(gt)
+library(dplyr)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt; &lt;br /&gt;
+Step 2:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a simple frequency table, with mtcars, grouped by number of cylinders.&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;Dplyr is fast and simple to use, but the console output is not so easy on the eyes…&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mtcars %&amp;gt;%
+  group_by(cyl) %&amp;gt;%
+  summarize(N = n()) %&amp;gt;%
+  mutate(Frequency = N/sum(N),
+         Frequency = round(Frequency, 2))&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 3 x 3
+##     cyl     N Frequency
+##   &amp;lt;dbl&amp;gt; &amp;lt;int&amp;gt;     &amp;lt;dbl&amp;gt;
+## 1     4    11      0.34
+## 2     6     7      0.22
+## 3     8    14      0.44&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt; &lt;br /&gt;
+Step 3: Lets add some {gt} magic…&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mtcars %&amp;gt;%
+  group_by(cyl) %&amp;gt;%
+  summarize(N = n()) %&amp;gt;%
+  mutate(Frequency = N/sum(N),
+         Frequency = round(Frequency, 2)) %&amp;gt;%
+  gt() %&amp;gt;%
+  tab_header(
+    title = md(&amp;quot;Table 1: MTCARS cyl table&amp;quot;) 
+  ) %&amp;gt;% 
+  tab_options(heading.background.color = &amp;quot;#5BC0DE&amp;quot;, 
+              heading.border.bottom.color = &amp;quot;black&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;style&gt;html {
+  font-family: -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, Oxygen, Ubuntu, Cantarell, &#39;Helvetica Neue&#39;, &#39;Fira Sans&#39;, &#39;Droid Sans&#39;, Arial, sans-serif;
+}
+
+#xcebqukibh .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  background-color: #FFFFFF;
+  /* table.background.color */
+  width: auto;
+  /* table.width */
+  border-top-style: solid;
+  /* table.border.top.style */
+  border-top-width: 2px;
+  /* table.border.top.width */
+  border-top-color: #A8A8A8;
+  /* table.border.top.color */
+  border-bottom-style: solid;
+  /* table.border.bottom.style */
+  border-bottom-width: 2px;
+  /* table.border.bottom.width */
+  border-bottom-color: #A8A8A8;
+  /* table.border.bottom.color */
+}
+
+#xcebqukibh .gt_heading {
+  background-color: #5BC0DE;
+  /* heading.background.color */
+  border-bottom-color: #FFFFFF;
+}
+
+#xcebqukibh .gt_title {
+  color: #FFFFFF;
+  font-size: 125%;
+  /* heading.title.font.size */
+  padding-top: 4px;
+  /* heading.top.padding - not yet used */
+  padding-bottom: 4px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#xcebqukibh .gt_subtitle {
+  color: #FFFFFF;
+  font-size: 85%;
+  /* heading.subtitle.font.size */
+  padding-top: 0;
+  padding-bottom: 4px;
+  /* heading.bottom.padding - not yet used */
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#xcebqukibh .gt_bottom_border {
+  border-bottom-style: solid;
+  /* heading.border.bottom.style */
+  border-bottom-width: 2px;
+  /* heading.border.bottom.width */
+  border-bottom-color: black;
+  /* heading.border.bottom.color */
+}
+
+#xcebqukibh .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#xcebqukibh .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  /* column_labels.background.color */
+  font-size: 16px;
+  /* column_labels.font.size */
+  font-weight: initial;
+  /* column_labels.font.weight */
+  vertical-align: middle;
+  padding: 5px;
+  margin: 10px;
+  overflow-x: hidden;
+}
+
+#xcebqukibh .gt_columns_top_border {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+}
+
+#xcebqukibh .gt_columns_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#xcebqukibh .gt_sep_right {
+  border-right: 5px solid #FFFFFF;
+}
+
+#xcebqukibh .gt_group_heading {
+  padding: 8px;
+  /* row_group.padding */
+  color: #333333;
+  background-color: #FFFFFF;
+  /* row_group.background.color */
+  font-size: 16px;
+  /* row_group.font.size */
+  font-weight: initial;
+  /* row_group.font.weight */
+  border-top-style: solid;
+  /* row_group.border.top.style */
+  border-top-width: 2px;
+  /* row_group.border.top.width */
+  border-top-color: #D3D3D3;
+  /* row_group.border.top.color */
+  border-bottom-style: solid;
+  /* row_group.border.bottom.style */
+  border-bottom-width: 2px;
+  /* row_group.border.bottom.width */
+  border-bottom-color: #D3D3D3;
+  /* row_group.border.bottom.color */
+  vertical-align: middle;
+}
+
+#xcebqukibh .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  /* row_group.background.color */
+  font-size: 16px;
+  /* row_group.font.size */
+  font-weight: initial;
+  /* row_group.font.weight */
+  border-top-style: solid;
+  /* row_group.border.top.style */
+  border-top-width: 2px;
+  /* row_group.border.top.width */
+  border-top-color: #D3D3D3;
+  /* row_group.border.top.color */
+  border-bottom-style: solid;
+  /* row_group.border.bottom.style */
+  border-bottom-width: 2px;
+  /* row_group.border.bottom.width */
+  border-bottom-color: #D3D3D3;
+  /* row_group.border.bottom.color */
+  vertical-align: middle;
+}
+
+#xcebqukibh .gt_striped {
+  background-color: #8080800D;
+}
+
+#xcebqukibh .gt_from_md &gt; :first-child {
+  margin-top: 0;
+}
+
+#xcebqukibh .gt_from_md &gt; :last-child {
+  margin-bottom: 0;
+}
+
+#xcebqukibh .gt_row {
+  padding-top: 8px;
+  /* row.padding */
+  padding-bottom: 8px;
+  /* row.padding */
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#xcebqukibh .gt_stub {
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 12px;
+}
+
+#xcebqukibh .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  /* summary_row.background.color */
+  padding-top: 8px;
+  /* summary_row.padding */
+  padding-bottom: 8px;
+  /* summary_row.padding */
+  padding-left: 5px;
+  padding-right: 5px;
+  text-transform: inherit;
+  /* summary_row.text_transform */
+}
+
+#xcebqukibh .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  /* grand_summary_row.background.color */
+  padding-top: 8px;
+  /* grand_summary_row.padding */
+  padding-bottom: 8px;
+  /* grand_summary_row.padding */
+  padding-left: 5px;
+  padding-right: 5px;
+  text-transform: inherit;
+  /* grand_summary_row.text_transform */
+}
+
+#xcebqukibh .gt_first_summary_row {
+  padding-top: 8px;
+  /* summary_row.padding */
+  padding-bottom: 8px;
+  /* summary_row.padding */
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+}
+
+#xcebqukibh .gt_first_grand_summary_row {
+  padding-top: 8px;
+  /* grand_summary_row.padding */
+  padding-bottom: 8px;
+  /* grand_summary_row.padding */
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#xcebqukibh .gt_table_body {
+  border-top-style: solid;
+  /* table_body.border.top.style */
+  border-top-width: 2px;
+  /* table_body.border.top.width */
+  border-top-color: #D3D3D3;
+  /* table_body.border.top.color */
+  border-bottom-style: solid;
+  /* table_body.border.bottom.style */
+  border-bottom-width: 2px;
+  /* table_body.border.bottom.width */
+  border-bottom-color: #D3D3D3;
+  /* table_body.border.bottom.color */
+}
+
+#xcebqukibh .gt_footnotes {
+  border-top-style: solid;
+  /* footnotes.border.top.style */
+  border-top-width: 2px;
+  /* footnotes.border.top.width */
+  border-top-color: #D3D3D3;
+  /* footnotes.border.top.color */
+}
+
+#xcebqukibh .gt_footnote {
+  font-size: 90%;
+  /* footnote.font.size */
+  margin: 0px;
+  padding: 4px;
+  /* footnote.padding */
+}
+
+#xcebqukibh .gt_sourcenotes {
+  border-top-style: solid;
+  /* sourcenotes.border.top.style */
+  border-top-width: 2px;
+  /* sourcenotes.border.top.width */
+  border-top-color: #D3D3D3;
+  /* sourcenotes.border.top.color */
+}
+
+#xcebqukibh .gt_sourcenote {
+  font-size: 90%;
+  /* sourcenote.font.size */
+  padding: 4px;
+  /* sourcenote.padding */
+}
+
+#xcebqukibh .gt_center {
+  text-align: center;
+}
+
+#xcebqukibh .gt_left {
+  text-align: left;
+}
+
+#xcebqukibh .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#xcebqukibh .gt_font_normal {
+  font-weight: normal;
+}
+
+#xcebqukibh .gt_font_bold {
+  font-weight: bold;
+}
+
+#xcebqukibh .gt_font_italic {
+  font-style: italic;
+}
+
+#xcebqukibh .gt_super {
+  font-size: 65%;
+}
+
+#xcebqukibh .gt_footnote_marks {
+  font-style: italic;
+  font-size: 65%;
+}
+&lt;/style&gt;
+&lt;div id=&#34;xcebqukibh&#34; style=&#34;overflow-x:auto;overflow-y:auto;width:auto;height:auto;&#34;&gt;&lt;table class=&#34;gt_table&#34;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th colspan=&#34;3&#34; class=&#34;gt_heading gt_title gt_font_normal gt_center&#34; style&gt;Table 1: MTCARS cyl table&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th colspan=&#34;3&#34; class=&#34;gt_heading gt_subtitle gt_font_normal gt_center gt_bottom_border&#34; style&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tr&gt;
+    &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_right&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34;&gt;cyl&lt;/th&gt;
+    &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_center&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34;&gt;N&lt;/th&gt;
+    &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_right&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34;&gt;Frequency&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;body class=&#34;gt_table_body&#34;&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;4&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;11&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;0.34&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_right gt_striped&#34;&gt;6&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_center gt_striped&#34;&gt;7&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right gt_striped&#34;&gt;0.22&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;8&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_center&#34;&gt;14&lt;/td&gt;
+      &lt;td class=&#34;gt_row gt_right&#34;&gt;0.44&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/body&gt;
+  
+  
+&lt;/table&gt;&lt;/div&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Done!&lt;br /&gt;
+Simply calling gt() creates the table, then add a few parameters to control the style/font size etc…Voila! You have a fancy gt Table…&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

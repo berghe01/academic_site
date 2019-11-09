@@ -2,7 +2,6 @@
 authors:
 - admin
 bio: My research interests include fetal medicine, ultrasound, high-risk pregnancy
-  matter.
 education:
   courses:
   - course: Fetal Invertension Fellowship
