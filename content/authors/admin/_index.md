@@ -4,7 +4,7 @@ authors:
 bio: My research interests include fetal medicine, ultrasound, high-risk pregnancy
 education:
   courses:
-  - course: Fetal Invertension Fellowship
+  - course: Fetal Intervention Fellowship
     institution: The Fetal Center, Department of Obstetrics, Gynecology and Reproductive Sciences, University of Texas McGovern Medical School at Houston
     year: 2018 - 2020
   - course: Maternal-Fetal Medicine Fellowship
