@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>K.J. Jr. Moise | </title>
+    <link>/authors/k.j.-jr.-moise/</link>
+      <atom:link href="/authors/k.j.-jr.-moise/index.xml" rel="self" type="application/rss+xml" />
+    <description>K.J. Jr. Moise</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>K.J. Jr. Moise</title>
+      <link>/authors/k.j.-jr.-moise/</link>
+    </image>
+    
+    <item>
+      <title>Clinical Monitoring of Sacrococcygeal Teratoma</title>
+      <link>/publication/journal-article/2019-01-01_clinical_monitoring_/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2019-01-01_clinical_monitoring_/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Distance Traveled to a Fetal Center and Pregnancy Outcomes in Twin-Twin Transfusion Syndrome</title>
+      <link>/publication/journal-article/2019-01-01_distance_traveled_to/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2019-01-01_distance_traveled_to/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effect of intra-amniotic fluid pressure from polyhydramnios on cervical length in patients with twin-twin transfusion syndrome undergoing fetoscopic laser surgery</title>
+      <link>/publication/journal-article/2019-01-01_effect_of_intra-amni/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2019-01-01_effect_of_intra-amni/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

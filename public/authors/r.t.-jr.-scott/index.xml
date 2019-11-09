@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R.T. Jr. Scott | </title>
+    <link>/authors/r.t.-jr.-scott/</link>
+      <atom:link href="/authors/r.t.-jr.-scott/index.xml" rel="self" type="application/rss+xml" />
+    <description>R.T. Jr. Scott</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>R.T. Jr. Scott</title>
+      <link>/authors/r.t.-jr.-scott/</link>
+    </image>
+    
+    <item>
+      <title>Multiple thrombophilic single nucleotide polymorphisms lack a significant effect on outcomes in fresh IVF cycles: an analysis of 1717 patients</title>
+      <link>/publication/journal-article/2016-01-01_multiple_thrombophil/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2016-01-01_multiple_thrombophil/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
