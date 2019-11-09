@@ -61,8 +61,8 @@ mtcars %>%
 Step 4: Ok, now adding some bells and whistles, we can really make this table shine...
 ```{r}
 mtcars %>%
-    group_by(cyl) %>%
-    summarize(N = n()) %>%
+  group_by(cyl) %>%
+  summarize(N = n()) %>%
     mutate(Frequency = N/sum(N),
            Frequency = round(Frequency, 2)) %>%
     gt(rowname_col = "cyl") %>%
@@ -90,10 +90,12 @@ mtcars %>%
               heading.subtitle.font.size = 22, 
               table.width = 370, 
               table.font.size = 18, 
-              column_labels.font.size = 20) 
+              column_labels.font.size = 20, 
+              row.striping.include_stub = TRUE,
+              row.striping.include_table_body = TRUE)
 ```
 
-&nbps;  
+&nbsp;  
 Done!  
 Simply calling gt() creates the table, then add a few parameters to control the style/font size etc...Voila! You have a fancy gt Table...
 
