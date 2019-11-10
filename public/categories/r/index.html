@@ -409,12 +409,12 @@
     <div class="article-style">
       
       In my job, I make tables all the time
-I recently stumbled upon the {gt} package and whoa… these are some great looking tables! You can check out the vignettes here
-Even better, they are simple to append to any dplyr pipeline…
+I recently stumbled upon the {gt} package and whoa… these are some great looking tables! You can check out the documentation here
+Even better, they are easy to append to any dplyr pipeline…
 Step 1: Load {gt} and {dplyr}
 library(gt) library(dplyr)  Step 2:
- Create a simple frequency table, with mtcars, grouped by number of cylinders.
- Dplyr is fast and simple to use, but the console output is not so easy on the eyes…  mtcars %&gt;% group_by(cyl) %&gt;% summarize(N = n()) %&gt;% mutate(Frequency = N/sum(N), Frequency = round(Frequency, 2)) ## # A tibble: 3 x 3 ## cyl N Frequency ## &lt;dbl&gt; &lt;int&gt; &lt;dbl&gt; ## 1 4 11 0.
+ Create a frequency table with mtcars, grouped by number of cylinders.
+ Dplyr is quick and simple to use, but the console output is not so easy on the eyes…  mtcars %&gt;% group_by(cyl) %&gt;% summarize(N = n()) %&gt;% mutate(Frequency = N/sum(N), Frequency = round(Frequency, 2)) ## # A tibble: 3 x 3 ## cyl N Frequency ## &lt;dbl&gt; &lt;int&gt; &lt;dbl&gt; ## 1 4 11 0.
       
     </div>
   </div>

@@ -20,9 +20,9 @@ draft: false
 
 In my job, I make tables *all the time*  
 
-I recently stumbled upon the {gt} package and whoa... these are some great looking tables! You can check out the vignettes [here](https://gt.rstudio.com/)
+I recently stumbled upon the {gt} package and whoa... these are some great looking tables! You can check out the documentation [here](https://gt.rstudio.com/)
 
-Even better, they are simple to append to any dplyr pipeline...
+Even better, they are easy to append to any dplyr pipeline...
 
 ---
 
@@ -35,8 +35,8 @@ library(dplyr)
 &nbsp;  
 Step 2:  
 
-+ Create a simple frequency table, with mtcars, grouped by number of cylinders.  
-+ Dplyr is fast and simple to use, but the console output is not so easy on the eyes...  
++ Create a frequency table with mtcars, grouped by number of cylinders.  
++ Dplyr is quick and simple to use, but the console output is not so easy on the eyes...  
 ```{r echo = TRUE, message = FALSE, warning = FALSE}
 mtcars %>%
   group_by(cyl) %>%
@@ -82,6 +82,10 @@ mtcars %>%
   ) %>%
   tab_source_note(
     source_note = "Example 2: Add another note/reference here!"
+  ) %>%
+  cols_align(
+    align = "center", 
+    columns = vars(N, Frequency)
   ) %>%
   tab_options(heading.background.color = "#aa6f73", 
               heading.border.bottom.color = "black", 
