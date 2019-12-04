@@ -5,12 +5,32 @@
     <link>/post/</link>
       <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 08 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 04 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Posts</title>
       <link>/post/</link>
     </image>
+    
+    <item>
+      <title>Hemolytic disease of the fetus and newborn, Shiny App</title>
+      <link>/post/post-about-hdfn-shiny-app/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/post/post-about-hdfn-shiny-app/</guid>
+      <description>
+
+
+&lt;p&gt;App created in R/Shiny to illustrate fetal physiology.&lt;br /&gt;
+This should NOT be taken as medical advice, but feel free to play around with the inputs.&lt;/p&gt;
+&lt;p&gt;Note, this an approximation: the decline in fetal hematocrit (hct) seen here will vary depending upon the degree to which fetal erythropoeisis has been suppressed by prior transfusions.&lt;/p&gt;
+&lt;p&gt;Clearly, using a combined IVT+IPT approach maintains a higher post-transfusion hct compared with IVT alone.&lt;/p&gt;
+&lt;p&gt;Link to the code &lt;a href=&#34;https://github.com/berghe01/HDFN-Shiny-App&#34;&gt;here&lt;/a&gt;&lt;br /&gt;
+App hosted &lt;a href=&#34;https://eric-bergh.shinyapps.io/HDFN-Shiny-App/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;iframe width=&#34;1200&#34; height=&#34;700&#34; scrolling=&#34;yes&#34; frameborder=&#34;no&#34; src=&#34;https://eric-bergh.shinyapps.io/HDFN-Shiny-App/&#34;&gt;
+&lt;/iframe&gt;
+</description>
+    </item>
     
     <item>
       <title>GT tables</title>

@@ -129,8 +129,8 @@ bibtex_2academic <- function(bibfile,
 
 
 
-my_bibfile <- "content/publication/bergh_publications.bib"
-out_fold   <- "content/publication"
+my_bibfile <- "content/publication/journal-article/microbiome.bib"
+out_fold   <- "content/publication/journal-article"
 
 bibtex_2academic(bibfile  = my_bibfile, 
                  outfold   = out_fold, 
