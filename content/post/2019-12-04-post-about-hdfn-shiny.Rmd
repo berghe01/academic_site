@@ -29,7 +29,9 @@ App hosted [here](https://eric-bergh.shinyapps.io/HDFN-Shiny-App/)
 
 ------  
 
-<iframe width="1200" height="700" scrolling="yes" frameborder="no" src="https://eric-bergh.shinyapps.io/HDFN-Shiny-App/"> </iframe>
-
+```{r, echo = FALSE}
+knitr::include_app("https://eric-bergh.shinyapps.io/HDFN-Shiny-App/",
+                   height = "1200px")
+```
 
 
