@@ -29,7 +29,7 @@ App hosted [here](https://eric-bergh.shinyapps.io/HDFN-Shiny-App/)
 
 ------  
 
-<iframe width="1200" height="700" scrolling="yes" frameborder="no" src="https://eric-bergh.shinyapps.io/HDFN-Shiny-App/"> </iframe>
-
+<iframe width = "1200" height = "700" scrolling = "yes" frameborder = "no" 
+src = "https://eric-bergh.shinyapps.io/HDFN-Shiny-App/"></iframe>
 
 
