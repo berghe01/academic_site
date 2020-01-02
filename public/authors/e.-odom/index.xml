@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>E. Odom | </title>
+    <link>/authors/e.-odom/</link>
+      <atom:link href="/authors/e.-odom/index.xml" rel="self" type="application/rss+xml" />
+    <description>E. Odom</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>E. Odom</title>
+      <link>/authors/e.-odom/</link>
+    </image>
+    
+    <item>
+      <title>The effect of microbiome exposure at birth on pediatric outcomes using a twin cohort discordant for microbiome exposure at birth</title>
+      <link>/publication/journal-article/2019-01-01_the_effect_of_microb/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2019-01-01_the_effect_of_microb/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

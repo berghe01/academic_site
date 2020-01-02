@@ -1,0 +1,15 @@
+@article{RN2221,
+   author = {Hoffman, M. and Mann, L. K. and Won, J. H. and Bergh, E. P. and Donepudi, R. and Johnson, A. and Moise, K. J. and Macpherson, C. and Thom, E. and Mesiano, S. and Papanna, R.},
+   title = {Steroid Hormone Levels in Recipient Amniotic Fluid in Twin-Twin Transfusion Syndrome and Their Association with Preterm Delivery},
+   journal = {Am J Perinatol},
+   ISSN = {1098-8785 (Electronic)
+0735-1631 (Linking)},
+   DOI = {10.1055/s-0039-1700862},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/31891958},
+   year = {2019},
+   type = {Journal Article},
+   volume = NA,
+   number = NA,
+   pages = NA
+}
+

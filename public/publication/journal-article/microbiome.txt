@@ -1,0 +1,15 @@
+@article{RN2219,
+   author = {Zafman, K. B. and Bergh, E. P. and Cohen, N. and Odom, E. and Fox, N. S.},
+   title = {The effect of microbiome exposure at birth on pediatric outcomes using a twin cohort discordant for microbiome exposure at birth},
+   journal = {J Matern Fetal Neonatal Med},
+   pages = {1-7},
+   ISSN = {1476-4954 (Electronic)
+1476-4954 (Linking)},
+   DOI = {10.1080/14767058.2019.1684469},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/31739712},
+   year = {2019},
+   type = {Journal Article},
+   volume = NA,
+   number = NA
+}
+

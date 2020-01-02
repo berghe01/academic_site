@@ -128,6 +128,11 @@
   </url>
   
   <url>
+    <loc>/authors/c.-macpherson/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/authors/c.-s.-bell/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -153,7 +158,17 @@
   </url>
   
   <url>
+    <loc>/authors/e.-odom/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/authors/e.-p.-bergh/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/e.-thom/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -183,12 +198,27 @@
   </url>
   
   <url>
+    <loc>/authors/j.-h.-won/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/authors/j.-r.-overbey/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/j.p.h.m.-van-den-wijngaard/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/k.-b.-zafman/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/k.-j.-moise/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -208,7 +238,17 @@
   </url>
   
   <url>
+    <loc>/authors/m.-hoffman/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/authors/m.j.c.-van-gemert/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/n.-cohen/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -243,6 +283,21 @@
   </url>
   
   <url>
+    <loc>/authors/s.-mesiano/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/journal-article/2019-01-01_steroid_hormone_leve/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/journal-article/2019-01-01_the_effect_of_microb/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/privacy/</loc>
     <lastmod>2018-06-28T00:00:00+01:00</lastmod>
   </url>
@@ -254,11 +309,6 @@
   
   <url>
     <loc>/publication/journal-article/2018-01-01_accuracy_of_sonograp/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/k.-b.-zafman/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url>
   
