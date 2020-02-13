@@ -53,7 +53,7 @@ First: If you have not used shortcuts on your device, you will likely need to:
 3. Go to Settings -> Shortcuts
 4. Turn on _**Allow Untrusted Shortcuts**_  
 
-Follow this **[link](https://www.icloud.com/shortcuts/6f0d9bc61dda4ca398a79203930ac075)** on your iphone/ipad to install the shortcut. Scroll to the end and click _"Add Untrusted Shortcut"_
+Follow this **[link](https://www.icloud.com/shortcuts/fefd36e182454aec84e2ee3de3fc4875)** on your iphone/ipad to install the shortcut. Scroll to the end and click _"Add Untrusted Shortcut"_
 
 Ok, after installing the shortcut, launch Siri and say:  
 
@@ -103,7 +103,7 @@ If you open up the shortcut to see how it was built, you will find the following
 
 The following shortcut uses if/else logic to guide the user through a basic algorithm in order to best counsel a patient on her risk of shoulder dystocia. Inputs include *estimated fetal weight* and *diabetic status*. If you are familiar with the following study by [Nesbitt et al.](https://www.sciencedirect.com/science/article/abs/pii/S0002937898703825), then you will know just how tedious it is to commit risk-stratification tables to memory. If you are a physician, you might agree, there are countless algorithms which we use on a daily basis which could benefit from automation. Siri shortcuts allows you to quickly program these algorithms into a format which is potentially more accessible.  
 
-Download the shortcut **[here](https://www.icloud.com/shortcuts/985a0809b0a34e1e8027c63ab44ea138)** 
+Download the shortcut **[here](https://www.icloud.com/shortcuts/268df0774f5544819c3ac20ee38e5776)** 
 
 Then open Siri and say:   
 
@@ -154,7 +154,7 @@ expression here */
 
 ##### 3. Look-up Table Shortcut: Creating lists of lists
 
-The last example is potentially the most powerful. You can download it **[here](https://www.icloud.com/shortcuts/61245398888c4c579f33bd3b1d277c19)**  
+The last example is potentially the most powerful. You can download it **[here](https://www.icloud.com/shortcuts/cd2c7550ef604f68a8fa09b6ad44d9e0)**  
 
 In this app Siri accepts any named medication in the dictionary and then looks up a parameter you are interested in. So, if for example we want to know the contraindications of labetalol...we would open Siri and say:  
 
@@ -170,7 +170,7 @@ And when Siri asks for a parameter:
 
 Now if all goes well, Siri should say "Asthma". But what if you have special notes about labetalol that you would rather display on your screen? (you certainly don't want Siri talking to you for 5 minutes) Well in that case, just say "Other" when asked for a parameter. Whatever notes you add in this section of your library will be displayed for easy access.
 
-Again, here is the code. Feel free to modify as you see fit. Potential uses include medications, differentials, hospital department extensions/room numbers etc... the _list_ goes on!
+Again, here is the code. *(And [here](https://www.youtube.com/watch?v=US63Q6AL0GI) is a very useful tutorial on arrays in JavaScript that was used to create this code)*. Feel free to modify as you see fit. Potential uses include medications, differentials, hospital department extensions/room numbers etc... the _list_ goes on!
 
 ```
 <script>
