@@ -53,7 +53,7 @@ First: If you have not used shortcuts on your device, you will likely need to:
 3. Go to Settings -> Shortcuts
 4. Turn on _**Allow Untrusted Shortcuts**_  
 
-Follow this **[link](https://www.icloud.com/shortcuts/49b6a19bed434bed8e7a8d7937ffde2d)** on your iphone/ipad to install the shortcut.
+Follow this **[link](https://www.icloud.com/shortcuts/92a498a3593c44949a8a497a8cb9ed93)** on your iphone/ipad to install the shortcut.
 
 Ok, after installing the shortcut, launch Siri and say:  
 
@@ -66,7 +66,7 @@ If you open up the shortcut to see how it was built, you will find the following
 ```
 <script>
 
-// code adapted courtesy of perinatology.com (not medical advi)
+// code adapted courtesy of perinatology.com (not medical advise!)
 
   function Fmt(x) {
     var v
@@ -103,7 +103,7 @@ If you open up the shortcut to see how it was built, you will find the following
 
 The following shortcut uses if/else logic to guide the user through a basic algorithm in order to best counsel a patient on her risk of shoulder dystocia. Inputs include *estimated fetal weight* and *diabetic status*. If you are familiar with the following study by [Nesbitt et al.](https://www.sciencedirect.com/science/article/abs/pii/S0002937898703825), then you will know just how tedious it is to commit risk-stratification tables to memory. If you are a physician, you might agree, there are countless algorithms which we use on a daily basis which could benefit from automation. Siri shortcuts allows you to quickly program these algorithms into a format which is potentially more accessible.  
 
-Download the shortcut **[here](https://www.icloud.com/shortcuts/65c922a9fdfe4292a4f0e35f59938f07)** 
+Download the shortcut **[here](https://www.icloud.com/shortcuts/64f91950bc3b4184a066c1052f512924)** 
 
 Then open Siri and say:   
 
@@ -151,7 +151,7 @@ infants born in California." American journal of obstetrics and gynecology
 
 ##### 3. Look-up Table Shortcut: Creating lists of lists
 
-The last example is potentially the most powerful. You can download it **[here](https://www.icloud.com/shortcuts/899b4d4e017543d68c8e2694bf0bedd6)**  
+The last example is potentially the most powerful. You can download it **[here](https://www.icloud.com/shortcuts/0bdf4c951cd040ca8dc64c004c3faf47)**  
 
 In this app Siri accepts any named medication in the dictionary and then looks up a parameter you are interested in. So, if for example we want to know the contraindications of labetalol...we would open Siri and say:  
 

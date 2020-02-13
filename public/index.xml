@@ -140,7 +140,7 @@
 &lt;li&gt;Go to Settings -&amp;gt; Shortcuts&lt;/li&gt;
 &lt;li&gt;Turn on &lt;em&gt;&lt;strong&gt;Allow Untrusted Shortcuts&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Follow this &lt;strong&gt;&lt;a href=&#34;https://www.icloud.com/shortcuts/49b6a19bed434bed8e7a8d7937ffde2d&#34;&gt;link&lt;/a&gt;&lt;/strong&gt; on your iphone/ipad to install the shortcut.&lt;/p&gt;
+&lt;p&gt;Follow this &lt;strong&gt;&lt;a href=&#34;https://www.icloud.com/shortcuts/92a498a3593c44949a8a497a8cb9ed93&#34;&gt;link&lt;/a&gt;&lt;/strong&gt; on your iphone/ipad to install the shortcut.&lt;/p&gt;
 &lt;p&gt;Ok, after installing the shortcut, launch Siri and say:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;“Hey Siri, Get MCA”&lt;/p&gt;
@@ -149,7 +149,7 @@
 &lt;p&gt;If you open up the shortcut to see how it was built, you will find the following code in a text box - here is where the calculation occurs. Full transparency, the calculation was lifted and modified (with permission) from the MCA calculator at &lt;a href=&#34;http://perinatology.com/calculators/MCA.htm&#34;&gt;perinatology.com&lt;/a&gt;. The &lt;em&gt;Provided Input(s)&lt;/em&gt; are passed to the script, which computes the value and is spoken by Siri…&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;script&amp;gt;
 
-// code adapted courtesy of perinatology.com (not medical advi)
+// code adapted courtesy of perinatology.com (not medical advise!)
 
   function Fmt(x) {
     var v
@@ -181,7 +181,7 @@
 &lt;div id=&#34;algorithm-shortcut-asessing-shoulder-dystocia-risk&#34; class=&#34;section level5&#34;&gt;
 &lt;h5&gt;2. Algorithm Shortcut: Asessing Shoulder Dystocia Risk&lt;/h5&gt;
 &lt;p&gt;The following shortcut uses if/else logic to guide the user through a basic algorithm in order to best counsel a patient on her risk of shoulder dystocia. Inputs include &lt;em&gt;estimated fetal weight&lt;/em&gt; and &lt;em&gt;diabetic status&lt;/em&gt;. If you are familiar with the following study by &lt;a href=&#34;https://www.sciencedirect.com/science/article/abs/pii/S0002937898703825&#34;&gt;Nesbitt et al.&lt;/a&gt;, then you will know just how tedious it is to commit risk-stratification tables to memory. If you are a physician, you might agree, there are countless algorithms which we use on a daily basis which could benefit from automation. Siri shortcuts allows you to quickly program these algorithms into a format which is potentially more accessible.&lt;/p&gt;
-&lt;p&gt;Download the shortcut &lt;strong&gt;&lt;a href=&#34;https://www.icloud.com/shortcuts/65c922a9fdfe4292a4f0e35f59938f07&#34;&gt;here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Download the shortcut &lt;strong&gt;&lt;a href=&#34;https://www.icloud.com/shortcuts/64f91950bc3b4184a066c1052f512924&#34;&gt;here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Then open Siri and say:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;“Hey Siri, Shoulder Dystocia”&lt;/p&gt;
@@ -222,7 +222,7 @@ infants born in California.&amp;quot; American journal of obstetrics and gynecol
 &lt;/div&gt;
 &lt;div id=&#34;look-up-table-shortcut-creating-lists-of-lists&#34; class=&#34;section level5&#34;&gt;
 &lt;h5&gt;3. Look-up Table Shortcut: Creating lists of lists&lt;/h5&gt;
-&lt;p&gt;The last example is potentially the most powerful. You can download it &lt;strong&gt;&lt;a href=&#34;https://www.icloud.com/shortcuts/899b4d4e017543d68c8e2694bf0bedd6&#34;&gt;here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The last example is potentially the most powerful. You can download it &lt;strong&gt;&lt;a href=&#34;https://www.icloud.com/shortcuts/0bdf4c951cd040ca8dc64c004c3faf47&#34;&gt;here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;In this app Siri accepts any named medication in the dictionary and then looks up a parameter you are interested in. So, if for example we want to know the contraindications of labetalol…we would open Siri and say:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;“Hey Siri, OB Meds”&lt;/p&gt;
