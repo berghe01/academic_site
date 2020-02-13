@@ -140,7 +140,7 @@
 &lt;li&gt;Go to Settings -&amp;gt; Shortcuts&lt;/li&gt;
 &lt;li&gt;Turn on &lt;em&gt;&lt;strong&gt;Allow Untrusted Shortcuts&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Follow this &lt;strong&gt;&lt;a href=&#34;https://www.icloud.com/shortcuts/18e1edfa89c34c7fa568eba1147294e1&#34;&gt;link&lt;/a&gt;&lt;/strong&gt; on your iphone/ipad to install the shortcut. Scroll to the end and click &lt;em&gt;“Add Untrusted Shortcut”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Follow this &lt;strong&gt;&lt;a href=&#34;https://www.icloud.com/shortcuts/09e739c695364f4b8dd8bc553de50cbc&#34;&gt;link&lt;/a&gt;&lt;/strong&gt; on your iphone/ipad to install the shortcut. Scroll to the end and click &lt;em&gt;“Add Untrusted Shortcut”&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Ok, after installing the shortcut, launch Siri and say:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;“Hey Siri, Get MCA”&lt;/p&gt;
@@ -149,7 +149,7 @@
 &lt;p&gt;If you open up the shortcut to see how it was built, you will find the following code in a text box - here is where the calculation occurs. Full transparency, the calculation was lifted and modified (with permission) from the MCA calculator at &lt;a href=&#34;http://perinatology.com/calculators/MCA.htm&#34;&gt;perinatology.com&lt;/a&gt;. The &lt;em&gt;Provided Input(s)&lt;/em&gt; are passed to the script, which computes the value and is spoken by Siri…&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;script&amp;gt;
 
-// code adapted courtesy of perinatology.com (not medical advice!)
+/* code adapted by Eric Bergh with permission and courtesy of perinatology.com (not medical advice!) */
 
   function Fmt(x) {
     var v
@@ -181,7 +181,7 @@
 &lt;div id=&#34;algorithm-shortcut-asessing-shoulder-dystocia-risk&#34; class=&#34;section level5&#34;&gt;
 &lt;h5&gt;2. Algorithm Shortcut: Asessing Shoulder Dystocia Risk&lt;/h5&gt;
 &lt;p&gt;The following shortcut uses if/else logic to guide the user through a basic algorithm in order to best counsel a patient on her risk of shoulder dystocia. Inputs include &lt;em&gt;estimated fetal weight&lt;/em&gt; and &lt;em&gt;diabetic status&lt;/em&gt;. If you are familiar with the following study by &lt;a href=&#34;https://www.sciencedirect.com/science/article/abs/pii/S0002937898703825&#34;&gt;Nesbitt et al.&lt;/a&gt;, then you will know just how tedious it is to commit risk-stratification tables to memory. If you are a physician, you might agree, there are countless algorithms which we use on a daily basis which could benefit from automation. Siri shortcuts allows you to quickly program these algorithms into a format which is potentially more accessible.&lt;/p&gt;
-&lt;p&gt;Download the shortcut &lt;strong&gt;&lt;a href=&#34;https://www.icloud.com/shortcuts/45c9abb9288b4f87b0223deab528fcbf&#34;&gt;here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Download the shortcut &lt;strong&gt;&lt;a href=&#34;https://www.icloud.com/shortcuts/09421757f57349b684a637a987c947a5&#34;&gt;here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Then open Siri and say:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;“Hey Siri, Shoulder Dystocia”&lt;/p&gt;
@@ -193,6 +193,9 @@
 Herrchen. &amp;quot;Shoulder dystocia and associated risk factors with macrosomic
 infants born in California.&amp;quot; American journal of obstetrics and gynecology
 179.2 (1998): 476-480. */
+
+/* adjust statement/function below to create your own custom
+expression here */ 
 
   function macrosomia(efw, status) {
 
@@ -222,7 +225,7 @@ infants born in California.&amp;quot; American journal of obstetrics and gynecol
 &lt;/div&gt;
 &lt;div id=&#34;look-up-table-shortcut-creating-lists-of-lists&#34; class=&#34;section level5&#34;&gt;
 &lt;h5&gt;3. Look-up Table Shortcut: Creating lists of lists&lt;/h5&gt;
-&lt;p&gt;The last example is potentially the most powerful. You can download it &lt;strong&gt;&lt;a href=&#34;https://www.icloud.com/shortcuts/e9edd4f98d0146ffae157862e672db67&#34;&gt;here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The last example is potentially the most powerful. You can download it &lt;strong&gt;&lt;a href=&#34;https://www.icloud.com/shortcuts/0177490a13b94af0b2f8af2c534584d8&#34;&gt;here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;In this app Siri accepts any named medication in the dictionary and then looks up a parameter you are interested in. So, if for example we want to know the contraindications of labetalol…we would open Siri and say:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;“Hey Siri, OB Meds”&lt;/p&gt;
@@ -238,6 +241,9 @@ infants born in California.&amp;quot; American journal of obstetrics and gynecol
 &lt;p&gt;Now if all goes well, Siri should say “Asthma”. But what if you have special notes about labetalol that you would rather display on your screen? (you certainly don’t want Siri talking to you for 5 minutes) Well in that case, just say “Other” when asked for a parameter. Whatever notes you add in this section of your library will be displayed for easy access.&lt;/p&gt;
 &lt;p&gt;Again, here is the code. Feel free to modify as you see fit. Potential uses include medications, differentials, hospital department extensions/room numbers etc… the &lt;em&gt;list&lt;/em&gt; goes on!&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;script&amp;gt;
+
+/* adjust library/array below to create your own custom list
+of lists! */
 
   const meds = [{
       med: &amp;#39;labetalol&amp;#39;,

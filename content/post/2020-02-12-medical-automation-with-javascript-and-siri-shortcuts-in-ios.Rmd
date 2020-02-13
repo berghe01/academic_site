@@ -53,7 +53,7 @@ First: If you have not used shortcuts on your device, you will likely need to:
 3. Go to Settings -> Shortcuts
 4. Turn on _**Allow Untrusted Shortcuts**_  
 
-Follow this **[link](https://www.icloud.com/shortcuts/18e1edfa89c34c7fa568eba1147294e1)** on your iphone/ipad to install the shortcut. Scroll to the end and click _"Add Untrusted Shortcut"_
+Follow this **[link](https://www.icloud.com/shortcuts/09e739c695364f4b8dd8bc553de50cbc)** on your iphone/ipad to install the shortcut. Scroll to the end and click _"Add Untrusted Shortcut"_
 
 Ok, after installing the shortcut, launch Siri and say:  
 
@@ -66,7 +66,7 @@ If you open up the shortcut to see how it was built, you will find the following
 ```
 <script>
 
-// code adapted courtesy of perinatology.com (not medical advice!)
+/* code adapted by Eric Bergh with permission and courtesy of perinatology.com (not medical advice!) */
 
   function Fmt(x) {
     var v
@@ -103,7 +103,7 @@ If you open up the shortcut to see how it was built, you will find the following
 
 The following shortcut uses if/else logic to guide the user through a basic algorithm in order to best counsel a patient on her risk of shoulder dystocia. Inputs include *estimated fetal weight* and *diabetic status*. If you are familiar with the following study by [Nesbitt et al.](https://www.sciencedirect.com/science/article/abs/pii/S0002937898703825), then you will know just how tedious it is to commit risk-stratification tables to memory. If you are a physician, you might agree, there are countless algorithms which we use on a daily basis which could benefit from automation. Siri shortcuts allows you to quickly program these algorithms into a format which is potentially more accessible.  
 
-Download the shortcut **[here](https://www.icloud.com/shortcuts/45c9abb9288b4f87b0223deab528fcbf)** 
+Download the shortcut **[here](https://www.icloud.com/shortcuts/09421757f57349b684a637a987c947a5)** 
 
 Then open Siri and say:   
 
@@ -118,6 +118,9 @@ And again, here is the code - see how it is basically an **if/else** statement? 
 Herrchen. "Shoulder dystocia and associated risk factors with macrosomic
 infants born in California." American journal of obstetrics and gynecology
 179.2 (1998): 476-480. */
+
+/* adjust statement/function below to create your own custom
+expression here */ 
 
   function macrosomia(efw, status) {
 
@@ -151,7 +154,7 @@ infants born in California." American journal of obstetrics and gynecology
 
 ##### 3. Look-up Table Shortcut: Creating lists of lists
 
-The last example is potentially the most powerful. You can download it **[here](https://www.icloud.com/shortcuts/e9edd4f98d0146ffae157862e672db67)**  
+The last example is potentially the most powerful. You can download it **[here](https://www.icloud.com/shortcuts/0177490a13b94af0b2f8af2c534584d8)**  
 
 In this app Siri accepts any named medication in the dictionary and then looks up a parameter you are interested in. So, if for example we want to know the contraindications of labetalol...we would open Siri and say:  
 
@@ -171,6 +174,9 @@ Again, here is the code. Feel free to modify as you see fit. Potential uses incl
 
 ```
 <script>
+
+/* adjust library/array below to create your own custom list
+of lists! */
 
   const meds = [{
       med: 'labetalol',
