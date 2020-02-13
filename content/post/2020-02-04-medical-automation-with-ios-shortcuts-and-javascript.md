@@ -1,0 +1,210 @@
+---
+title: Medical automation with Javascript and Siri Shortcuts in iOS
+author: ~
+date: '2020-02-04'
+slug: medical-automation-with-javascript-and-siri-shortcuts-in-iOS  
+categories: [Javascript, iOS, shortcuts]
+tags: [Javascript, iOS, shortcuts]
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-02-04T13:30:38-06:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: [myblog]
+draft: true
+---
+
+Recently, I discovered the incredible power of Siri Shortcuts in iOS. If you are unfamiliar with [Siri Shortcuts](https://support.apple.com/guide/shortcuts/welcome/ios), they allow you to automate daily tasks on your phone, and are typically used to interact with existing apps. However, did you know that Siri can be programmed to interpret Javascript using the Safari web browser on your phone? This creates many opportunities to automate advanced calculations, create lookup tables and store algorithms we typically use on a daily basis as medical professionals. Furthermore, you can essentially hold conversations with Siri.  
+
+If you are interested in creating your own shortcuts using Javascript, you will find great turorials [here](https://medium.com/@chrishutchinson/hacking-around-with-javascript-and-shortcuts-in-ios-12-95f8d7190777), [here](https://support.apple.com/guide/shortcuts/use-the-run-javascript-on-webpage-action-apdb71a01d93/ios), and [here](https://medium.com/better-programming/writing-siri-shortcuts-in-javascript-scriptable-5169f9aeb29b).  
+
+For now, Siri shortcuts can solve the 3 basic functions which I think medical professionals may benefit from:   
+
+* Performing difficult calculations  
+* Following medical algorithms  
+* Searching look-up tables
+
+To illustrate, I have created 3 basic applications... each allows the user to call the shortcut, provide a verbal input, and Siri will provide/speak the answer.   
+
+&nbsp;
+
+***  
+&nbsp;  
+
+
+##### 1. Calculation Shortcut: Calculate MCA PSV MoM  
+
+First: If you have not used shortcuts on your device, you will likely need to:  
+
+<img src = "/post/2020-02-04-medical-automation-with-ios-shortcuts-and-javascript_files/shortcut.png" width = 85 align = "right" />
+
+1. Open the **Shortcuts** icon on your device.
+2. Run any shortcut in your "Gallery" (just click the shortcut)
+    + Do this if you have never opened/run a shortcut on your device before
+3. Go to Settings -> Shortcuts
+4. Turn on _**Allow Untrusted Shortcuts**_  
+
+Follow this **[link](https://www.icloud.com/shortcuts/49b6a19bed434bed8e7a8d7937ffde2d)** on your iphone/ipad to install the shortcut.
+
+Ok, after installing the shortcut, launch Siri and say:  
+
+> "Hey Siri, Get MCA"  
+
+With any luck, you should be prompted to tell Siri both the *gestational age* and the *MCA PSV*, afterwhich Siri should tell you the MoMs...**pretty cool, right!?!**  
+
+If you open up the shortcut to see how it was built, you will find the following code in a text box - here is where the calculation occurs. Full transparency, the calculation was lifted and modified (with permission) from the MCA calculator at [perinatology.com](http://perinatology.com/calculators/MCA.htm). The *Provided Input(s)* are passed to the script, which computes the value and is spoken by Siri...
+
+```
+<script>
+
+// code adapted courtesy of perinatology.com (not medical advice!)
+
+  function Fmt(x) {
+    var v
+    if (x >= 0) {
+      v = '' + (x + 0.00005)
+    } else {
+      v = '' + (x - 0.00005)
+    }
+
+    return v.substring(0, v.indexOf('.') + 3)
+  }
+
+  function compute(age, mca) {
+
+    var ega = 0.0464 * (age)
+    var mmca = Fmt(10.071 * (Math.pow(2.7182818, ega)));
+    var mom = Fmt(mca / mmca)
+    return mom
+  }
+
+  var x = compute(age = Provided Input, mca = Provided Input)
+  document.write(x)
+
+</script>
+```   
+
+&nbsp;
+
+***  
+&nbsp;  
+
+
+##### 2. Algorithm Shortcut: Asessing Shoulder Dystocia Risk  
+
+The following shortcut uses if/else logic to guide the user through a basic algorithm in order to best counsel a patient on her risk of shoulder dystocia. Inputs include *estimated fetal weight* and *diabetic status*. If you are familiar with the following study by [Nesbitt et al.](https://www.sciencedirect.com/science/article/abs/pii/S0002937898703825), then you will know just how tedious it is to commit risk-stratification tables to memory. If you are a physician, you might agree, there are countless algorithms which we use on a daily basis which could benefit from automation. Siri shortcuts allows you to quickly program these algorithms into a format which is potentially more accessible.  
+
+Download the shortcut **[here](https://www.icloud.com/shortcuts/65c922a9fdfe4292a4f0e35f59938f07)** 
+
+Then open Siri and say:   
+
+> "Hey Siri, Shoulder Dystocia"  
+
+And again, here is the code - see how it is basically an **if/else** statement? Feel free to adjust the logic to suit your own needs and stop memorizing tables!
+
+``` 
+<script>
+
+/* Percentiles from Nesbitt, Thomas S., William M. Gilbert, and Beate
+Herrchen. "Shoulder dystocia and associated risk factors with macrosomic
+infants born in California." American journal of obstetrics and gynecology
+179.2 (1998): 476-480. */
+
+  function macrosomia(efw, status) {
+
+    if (efw >= 4500 && status == "Yes") {
+      message = "20 to 50 percent";
+    } else if (efw >= 4500 && status == "No") {
+      message = "2.7 to 22.6 percent";
+    } else if (efw < 4000 && status == "Yes") {
+      message = "0.6 to 3.7 percent";
+    } else if (efw < 4000 && status == "No") {
+      message = "0.1 to 1.1 percent";
+    } else if (status == "Yes") {
+      message = "4.9 to 23.1 percent";
+    } else {
+      message = "1.1 to 10 percent";
+    }
+    return message
+  }
+
+  document.write(macrosomia(Provided Input, "Provided Input"))
+
+</script>
+
+```   
+
+&nbsp;
+
+***  
+&nbsp;  
+
+
+##### 3. Look-up Table Shortcut: Creating lists of lists
+
+The last example is potentially the most powerful. You can download it **[here](https://www.icloud.com/shortcuts/899b4d4e017543d68c8e2694bf0bedd6)**  
+
+In this app Siri accepts any named medication in the dictionary and then looks up a parameter you are interested in. So, if for example we want to know the contraindications of labetalol...we would open Siri and say:  
+
+> "Hey Siri, OB Meds"  
+
+And when Siri asks for a medication:  
+
+> "Labetalol"  
+
+And when Siri asks for a parameter:  
+
+> "Contraindication"  
+
+Now if all goes well, Siri should say "Asthma". But what if you have special notes about labetalol that you would rather display on your screen? (you certainly don't want Siri talking to you for 5 minutes) Well in that case, just say "Other" when asked for a parameter. Whatever notes you add in this section of your library will be displayed for easy access.
+
+Again, here is the code. Feel free to modify as you see fit. Potential uses include medications, differentials, hospital department extensions/room numbers etc... the _list_ goes on!
+
+```
+<script>
+
+  const meds = [{
+      med: 'labetalol',
+      contraindication: "asthma",
+      category: "beta-blocker with alpha-blocking activity",
+      other: "Add some long text or notes here",
+    },
+    {
+      med: 'methergine',
+      contraindication: "hypertension",
+      category: "ergot derivative",
+      other: "Add some long text of notes here",
+    }
+  ]
+
+  const findMed = function(myMeds, med) {
+    const nameReturned = myMeds.find(function(title, index) {
+      return title.med.toLowerCase() === med.toLowerCase()
+    })
+    return nameReturned
+  };
+
+  let medication = 'Provided Input'
+
+  let tellMe = findMed(meds, medication.toLowerCase());
+
+  let param = 'Provided Input';
+
+  document.write(tellMe[param.toLowerCase()])
+
+</script>
+
+```
+
+The beauty of all these apps is that they are **HIGHLY** customizable. With just a little editing of the above code, you could program all types of algorithms, tables, and dictionaries. For those of you looking to save time on the wards, this might be useful!  
+
+Finally, none of this is real medical advice, and you should always test an app before trusting Siri - but with these simple examples you should be able to make some pretty useful voice-activated tools custom to your medical specialty.  
+
+
+
+
+
