@@ -140,7 +140,7 @@
 &lt;li&gt;Go to Settings -&amp;gt; Shortcuts&lt;/li&gt;
 &lt;li&gt;Turn on &lt;em&gt;&lt;strong&gt;Allow Untrusted Shortcuts&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Follow this &lt;strong&gt;&lt;a href=&#34;https://www.icloud.com/shortcuts/09e739c695364f4b8dd8bc553de50cbc&#34;&gt;link&lt;/a&gt;&lt;/strong&gt; on your iphone/ipad to install the shortcut. Scroll to the end and click &lt;em&gt;“Add Untrusted Shortcut”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Follow this &lt;strong&gt;&lt;a href=&#34;https://www.icloud.com/shortcuts/6f0d9bc61dda4ca398a79203930ac075&#34;&gt;link&lt;/a&gt;&lt;/strong&gt; on your iphone/ipad to install the shortcut. Scroll to the end and click &lt;em&gt;“Add Untrusted Shortcut”&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Ok, after installing the shortcut, launch Siri and say:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;“Hey Siri, Get MCA”&lt;/p&gt;
@@ -181,7 +181,7 @@
 &lt;div id=&#34;algorithm-shortcut-asessing-shoulder-dystocia-risk&#34; class=&#34;section level5&#34;&gt;
 &lt;h5&gt;2. Algorithm Shortcut: Asessing Shoulder Dystocia Risk&lt;/h5&gt;
 &lt;p&gt;The following shortcut uses if/else logic to guide the user through a basic algorithm in order to best counsel a patient on her risk of shoulder dystocia. Inputs include &lt;em&gt;estimated fetal weight&lt;/em&gt; and &lt;em&gt;diabetic status&lt;/em&gt;. If you are familiar with the following study by &lt;a href=&#34;https://www.sciencedirect.com/science/article/abs/pii/S0002937898703825&#34;&gt;Nesbitt et al.&lt;/a&gt;, then you will know just how tedious it is to commit risk-stratification tables to memory. If you are a physician, you might agree, there are countless algorithms which we use on a daily basis which could benefit from automation. Siri shortcuts allows you to quickly program these algorithms into a format which is potentially more accessible.&lt;/p&gt;
-&lt;p&gt;Download the shortcut &lt;strong&gt;&lt;a href=&#34;https://www.icloud.com/shortcuts/ef3575a950f34fc1b3eebc55ae221c77&#34;&gt;here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Download the shortcut &lt;strong&gt;&lt;a href=&#34;https://www.icloud.com/shortcuts/985a0809b0a34e1e8027c63ab44ea138&#34;&gt;here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Then open Siri and say:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;“Hey Siri, Shoulder Dystocia”&lt;/p&gt;
@@ -225,7 +225,7 @@ expression here */
 &lt;/div&gt;
 &lt;div id=&#34;look-up-table-shortcut-creating-lists-of-lists&#34; class=&#34;section level5&#34;&gt;
 &lt;h5&gt;3. Look-up Table Shortcut: Creating lists of lists&lt;/h5&gt;
-&lt;p&gt;The last example is potentially the most powerful. You can download it &lt;strong&gt;&lt;a href=&#34;https://www.icloud.com/shortcuts/7a5dbeddd5094c6db0eb8d3b42d5ac61&#34;&gt;here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The last example is potentially the most powerful. You can download it &lt;strong&gt;&lt;a href=&#34;https://www.icloud.com/shortcuts/61245398888c4c579f33bd3b1d277c19&#34;&gt;here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;In this app Siri accepts any named medication in the dictionary and then looks up a parameter you are interested in. So, if for example we want to know the contraindications of labetalol…we would open Siri and say:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;“Hey Siri, OB Meds”&lt;/p&gt;
