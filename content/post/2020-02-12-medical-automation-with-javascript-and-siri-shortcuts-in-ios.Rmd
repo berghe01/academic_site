@@ -53,7 +53,7 @@ First: If you have not used shortcuts on your device, you will likely need to:
 3. Go to Settings -> Shortcuts
 4. Turn on _**Allow Untrusted Shortcuts**_  
 
-Follow this **[link](https://www.icloud.com/shortcuts/92a498a3593c44949a8a497a8cb9ed93)** on your iphone/ipad to install the shortcut.
+Follow this **[link](https://www.icloud.com/shortcuts/92a498a3593c44949a8a497a8cb9ed93)** on your iphone/ipad to install the shortcut. Scroll to the end and click _"Add Untrusted Shortcut"_
 
 Ok, after installing the shortcut, launch Siri and say:  
 
