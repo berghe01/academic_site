@@ -119,9 +119,9 @@
   <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-02-04T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2020-02-12T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2020-02-04T13:30:38-06:00">
+    <meta property="article:modified_time" content="2020-02-12T18:48:23-06:00">
   
 
   
@@ -151,8 +151,8 @@
   },
   "headline": "Medical automation with Javascript and Siri Shortcuts in iOS",
   
-  "datePublished": "2020-02-04T00:00:00Z",
-  "dateModified": "2020-02-04T13:30:38-06:00",
+  "datePublished": "2020-02-12T00:00:00Z",
+  "dateModified": "2020-02-12T18:48:23-06:00",
   
   "author": {
     "@type": "Person",
@@ -459,7 +459,7 @@
           Last updated on
       
     
-    Feb 4, 2020
+    Feb 12, 2020
   </span>
   
 
@@ -499,43 +499,6 @@
 
 
 
-<div class="btn-links mb-3">
-  
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
 
   
 </div>
@@ -547,68 +510,54 @@
     <div class="article-style">
       
 
-<p>Recently, I discovered the incredible power of Siri Shortcuts in iOS. If you are unfamiliar with <a href="https://support.apple.com/guide/shortcuts/welcome/ios" target="_blank">Siri Shortcuts</a>, they allow you to automate daily tasks on your phone, and are typically used to interact with existing apps. However, did you know that Siri can be programmed to interpret Javascript using the Safari web browser on your phone? This creates many opportunities to automate advanced calculations, create lookup tables and store algorithms we typically use on a daily basis as medical professionals. Furthermore, you can essentially hold conversations with Siri.</p>
 
-<p>If you are interested in creating your own shortcuts using Javascript, you will find great turorials <a href="https://medium.com/@chrishutchinson/hacking-around-with-javascript-and-shortcuts-in-ios-12-95f8d7190777" target="_blank">here</a>, <a href="https://support.apple.com/guide/shortcuts/use-the-run-javascript-on-webpage-action-apdb71a01d93/ios" target="_blank">here</a>, and <a href="https://medium.com/better-programming/writing-siri-shortcuts-in-javascript-scriptable-5169f9aeb29b" target="_blank">here</a>.</p>
-
+<p>Recently, I discovered the incredible power of Siri Shortcuts in iOS. If you are unfamiliar with <a href="https://support.apple.com/guide/shortcuts/welcome/ios">Siri Shortcuts</a>, they allow you to automate daily tasks on your phone, and are typically used to interact with existing apps. However, did you know that Siri can be programmed to interpret Javascript using the Safari web browser on your phone? This creates many opportunities to automate advanced calculations, create lookup tables and store algorithms we typically use on a daily basis as medical professionals. Furthermore, you can essentially hold conversations with Siri.</p>
+<p>If you are interested in creating your own shortcuts using Javascript, you will find great turorials <a href="https://medium.com/@chrishutchinson/hacking-around-with-javascript-and-shortcuts-in-ios-12-95f8d7190777">here</a>, <a href="https://support.apple.com/guide/shortcuts/use-the-run-javascript-on-webpage-action-apdb71a01d93/ios">here</a>, and <a href="https://medium.com/better-programming/writing-siri-shortcuts-in-javascript-scriptable-5169f9aeb29b">here</a>.</p>
 <p>For now, Siri shortcuts can solve the 3 basic functions which I think medical professionals may benefit from:</p>
-
 <ul>
-<li>Performing difficult calculations<br /></li>
-<li>Following medical algorithms<br /></li>
+<li>Performing difficult calculations<br />
+</li>
+<li>Following medical algorithms<br />
+</li>
 <li>Searching look-up tables</li>
 </ul>
-
-<p>To illustrate, I have created 3 basic applications&hellip; each allows the user to call the shortcut, provide a verbal input, and Siri will provide/speak the answer.</p>
-
-<p>&nbsp;</p>
-
+<p>To illustrate, I have created 3 basic applications… each allows the user to call the shortcut, provide a verbal input, and Siri will provide/speak the answer.</p>
+<p> </p>
 <hr />
-
-<p>&nbsp;</p>
-
-<h5 id="1-calculation-shortcut-calculate-mca-psv-mom">1. Calculation Shortcut: Calculate MCA PSV MoM</h5>
-
+<p> </p>
+<div id="calculation-shortcut-calculate-mca-psv-mom" class="section level5">
+<h5>1. Calculation Shortcut: Calculate MCA PSV MoM</h5>
 <p>First: If you have not used shortcuts on your device, you will likely need to:</p>
-
 <p><img src = "/post/2020-02-04-medical-automation-with-ios-shortcuts-and-javascript_files/shortcut.png" width = 85 align = "right" /></p>
-
-<ol>
+<ol style="list-style-type: decimal">
 <li>Open the <strong>Shortcuts</strong> icon on your device.</li>
-<li>Run any shortcut in your &ldquo;Gallery&rdquo; (just click the shortcut)
-
+<li>Run any shortcut in your “Gallery” (just click the shortcut)
 <ul>
 <li>Do this if you have never opened/run a shortcut on your device before</li>
 </ul></li>
 <li>Go to Settings -&gt; Shortcuts</li>
-<li>Turn on <em><strong>Allow Untrusted Shortcuts</strong></em><br /></li>
+<li>Turn on <em><strong>Allow Untrusted Shortcuts</strong></em></li>
 </ol>
-
-<p>Follow this <strong><a href="https://www.icloud.com/shortcuts/49b6a19bed434bed8e7a8d7937ffde2d" target="_blank">link</a></strong> on your iphone/ipad to install the shortcut.</p>
-
+<p>Follow this <strong><a href="https://www.icloud.com/shortcuts/49b6a19bed434bed8e7a8d7937ffde2d">link</a></strong> on your iphone/ipad to install the shortcut.</p>
 <p>Ok, after installing the shortcut, launch Siri and say:</p>
-
 <blockquote>
-<p>&ldquo;Hey Siri, Get MCA&rdquo;</p>
+<p>“Hey Siri, Get MCA”</p>
 </blockquote>
-
-<p>With any luck, you should be prompted to tell Siri both the <em>gestational age</em> and the <em>MCA PSV</em>, afterwhich Siri should tell you the MoMs&hellip;<strong>pretty cool, right!?!</strong></p>
-
-<p>If you open up the shortcut to see how it was built, you will find the following code in a text box - here is where the calculation occurs. Full transparency, the calculation was lifted and modified (with permission) from the MCA calculator at <a href="http://perinatology.com/calculators/MCA.htm" target="_blank">perinatology.com</a>. The <em>Provided Input(s)</em> are passed to the script, which computes the value and is spoken by Siri&hellip;</p>
-
+<p>With any luck, you should be prompted to tell Siri both the <em>gestational age</em> and the <em>MCA PSV</em>, afterwhich Siri should tell you the MoMs…<strong>pretty cool, right!?!</strong></p>
+<p>If you open up the shortcut to see how it was built, you will find the following code in a text box - here is where the calculation occurs. Full transparency, the calculation was lifted and modified (with permission) from the MCA calculator at <a href="http://perinatology.com/calculators/MCA.htm">perinatology.com</a>. The <em>Provided Input(s)</em> are passed to the script, which computes the value and is spoken by Siri…</p>
 <pre><code>&lt;script&gt;
 
-// code adapted courtesy of perinatology.com (not medical advice!)
+// code adapted courtesy of perinatology.com (not medical advi)
 
   function Fmt(x) {
     var v
     if (x &gt;= 0) {
-      v = '' + (x + 0.00005)
+      v = &#39;&#39; + (x + 0.00005)
     } else {
-      v = '' + (x - 0.00005)
+      v = &#39;&#39; + (x - 0.00005)
     }
 
-    return v.substring(0, v.indexOf('.') + 3)
+    return v.substring(0, v.indexOf(&#39;.&#39;) + 3)
   }
 
   function compute(age, mca) {
@@ -622,29 +571,20 @@
   var x = compute(age = Provided Input, mca = Provided Input)
   document.write(x)
 
-&lt;/script&gt;
-</code></pre>
-
-<p>&nbsp;</p>
-
+&lt;/script&gt;</code></pre>
+<p> </p>
 <hr />
-
-<p>&nbsp;</p>
-
-<h5 id="2-algorithm-shortcut-asessing-shoulder-dystocia-risk">2. Algorithm Shortcut: Asessing Shoulder Dystocia Risk</h5>
-
-<p>The following shortcut uses if/else logic to guide the user through a basic algorithm in order to best counsel a patient on her risk of shoulder dystocia. Inputs include <em>estimated fetal weight</em> and <em>diabetic status</em>. If you are familiar with the following study by <a href="https://www.sciencedirect.com/science/article/abs/pii/S0002937898703825" target="_blank">Nesbitt et al.</a>, then you will know just how tedious it is to commit risk-stratification tables to memory. If you are a physician, you might agree, there are countless algorithms which we use on a daily basis which could benefit from automation. Siri shortcuts allows you to quickly program these algorithms into a format which is potentially more accessible.</p>
-
-<p>Download the shortcut <strong><a href="https://www.icloud.com/shortcuts/65c922a9fdfe4292a4f0e35f59938f07" target="_blank">here</a></strong></p>
-
+<p> </p>
+</div>
+<div id="algorithm-shortcut-asessing-shoulder-dystocia-risk" class="section level5">
+<h5>2. Algorithm Shortcut: Asessing Shoulder Dystocia Risk</h5>
+<p>The following shortcut uses if/else logic to guide the user through a basic algorithm in order to best counsel a patient on her risk of shoulder dystocia. Inputs include <em>estimated fetal weight</em> and <em>diabetic status</em>. If you are familiar with the following study by <a href="https://www.sciencedirect.com/science/article/abs/pii/S0002937898703825">Nesbitt et al.</a>, then you will know just how tedious it is to commit risk-stratification tables to memory. If you are a physician, you might agree, there are countless algorithms which we use on a daily basis which could benefit from automation. Siri shortcuts allows you to quickly program these algorithms into a format which is potentially more accessible.</p>
+<p>Download the shortcut <strong><a href="https://www.icloud.com/shortcuts/65c922a9fdfe4292a4f0e35f59938f07">here</a></strong></p>
 <p>Then open Siri and say:</p>
-
 <blockquote>
-<p>&ldquo;Hey Siri, Shoulder Dystocia&rdquo;</p>
+<p>“Hey Siri, Shoulder Dystocia”</p>
 </blockquote>
-
 <p>And again, here is the code - see how it is basically an <strong>if/else</strong> statement? Feel free to adjust the logic to suit your own needs and stop memorizing tables!</p>
-
 <pre><code>&lt;script&gt;
 
 /* Percentiles from Nesbitt, Thomas S., William M. Gilbert, and Beate
@@ -673,51 +613,38 @@ infants born in California.&quot; American journal of obstetrics and gynecology
   document.write(macrosomia(Provided Input, &quot;Provided Input&quot;))
 
 &lt;/script&gt;
-
 </code></pre>
-
-<p>&nbsp;</p>
-
+<p> </p>
 <hr />
-
-<p>&nbsp;</p>
-
-<h5 id="3-look-up-table-shortcut-creating-lists-of-lists">3. Look-up Table Shortcut: Creating lists of lists</h5>
-
-<p>The last example is potentially the most powerful. You can download it <strong><a href="https://www.icloud.com/shortcuts/899b4d4e017543d68c8e2694bf0bedd6" target="_blank">here</a></strong></p>
-
-<p>In this app Siri accepts any named medication in the dictionary and then looks up a parameter you are interested in. So, if for example we want to know the contraindications of labetalol&hellip;we would open Siri and say:</p>
-
+<p> </p>
+</div>
+<div id="look-up-table-shortcut-creating-lists-of-lists" class="section level5">
+<h5>3. Look-up Table Shortcut: Creating lists of lists</h5>
+<p>The last example is potentially the most powerful. You can download it <strong><a href="https://www.icloud.com/shortcuts/899b4d4e017543d68c8e2694bf0bedd6">here</a></strong></p>
+<p>In this app Siri accepts any named medication in the dictionary and then looks up a parameter you are interested in. So, if for example we want to know the contraindications of labetalol…we would open Siri and say:</p>
 <blockquote>
-<p>&ldquo;Hey Siri, OB Meds&rdquo;</p>
+<p>“Hey Siri, OB Meds”</p>
 </blockquote>
-
 <p>And when Siri asks for a medication:</p>
-
 <blockquote>
-<p>&ldquo;Labetalol&rdquo;</p>
+<p>“Labetalol”</p>
 </blockquote>
-
 <p>And when Siri asks for a parameter:</p>
-
 <blockquote>
-<p>&ldquo;Contraindication&rdquo;</p>
+<p>“Contraindication”</p>
 </blockquote>
-
-<p>Now if all goes well, Siri should say &ldquo;Asthma&rdquo;. But what if you have special notes about labetalol that you would rather display on your screen? (you certainly don&rsquo;t want Siri talking to you for 5 minutes) Well in that case, just say &ldquo;Other&rdquo; when asked for a parameter. Whatever notes you add in this section of your library will be displayed for easy access.</p>
-
-<p>Again, here is the code. Feel free to modify as you see fit. Potential uses include medications, differentials, hospital department extensions/room numbers etc&hellip; the <em>list</em> goes on!</p>
-
+<p>Now if all goes well, Siri should say “Asthma”. But what if you have special notes about labetalol that you would rather display on your screen? (you certainly don’t want Siri talking to you for 5 minutes) Well in that case, just say “Other” when asked for a parameter. Whatever notes you add in this section of your library will be displayed for easy access.</p>
+<p>Again, here is the code. Feel free to modify as you see fit. Potential uses include medications, differentials, hospital department extensions/room numbers etc… the <em>list</em> goes on!</p>
 <pre><code>&lt;script&gt;
 
   const meds = [{
-      med: 'labetalol',
+      med: &#39;labetalol&#39;,
       contraindication: &quot;asthma&quot;,
       category: &quot;beta-blocker with alpha-blocking activity&quot;,
       other: &quot;Add some long text or notes here&quot;,
     },
     {
-      med: 'methergine',
+      med: &#39;methergine&#39;,
       contraindication: &quot;hypertension&quot;,
       category: &quot;ergot derivative&quot;,
       other: &quot;Add some long text of notes here&quot;,
@@ -731,21 +658,19 @@ infants born in California.&quot; American journal of obstetrics and gynecology
     return nameReturned
   };
 
-  let medication = 'Provided Input'
+  let medication = &#39;Provided Input&#39;
 
   let tellMe = findMed(meds, medication.toLowerCase());
 
-  let param = 'Provided Input';
+  let param = &#39;Provided Input&#39;;
 
   document.write(tellMe[param.toLowerCase()])
 
 &lt;/script&gt;
-
 </code></pre>
-
 <p>The beauty of all these apps is that they are <strong>HIGHLY</strong> customizable. With just a little editing of the above code, you could program all types of algorithms, tables, and dictionaries. For those of you looking to save time on the wards, this might be useful!</p>
-
 <p>Finally, none of this is real medical advice, and you should always test an app before trusting Siri - but with these simple examples you should be able to make some pretty useful voice-activated tools custom to your medical specialty.</p>
+</div>
 
     </div>
 

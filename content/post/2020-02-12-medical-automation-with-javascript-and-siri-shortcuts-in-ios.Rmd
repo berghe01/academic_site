@@ -1,21 +1,26 @@
 ---
 title: Medical automation with Javascript and Siri Shortcuts in iOS
-author: ~
-date: '2020-02-04'
-slug: medical-automation-with-javascript-and-siri-shortcuts-in-iOS  
-categories: [Javascript, iOS, shortcuts]
-tags: [Javascript, iOS, shortcuts]
+author: ''
+date: '2020-02-12'
+slug: medical-automation-with-javascript-and-siri-shortcuts-in-ios
+categories:
+  - Javascript
+  - iOS
+  - shortcuts
+tags:
+  - Javascript
+  - iOS
+  - shortcuts
 subtitle: ''
 summary: ''
 authors: []
-lastmod: '2020-02-04T13:30:38-06:00'
+lastmod: '2020-02-12T18:48:23-06:00'
 featured: no
 image:
   caption: ''
   focal_point: ''
   preview_only: no
-projects: [myblog]
-draft: true
+projects: []
 ---
 
 Recently, I discovered the incredible power of Siri Shortcuts in iOS. If you are unfamiliar with [Siri Shortcuts](https://support.apple.com/guide/shortcuts/welcome/ios), they allow you to automate daily tasks on your phone, and are typically used to interact with existing apps. However, did you know that Siri can be programmed to interpret Javascript using the Safari web browser on your phone? This creates many opportunities to automate advanced calculations, create lookup tables and store algorithms we typically use on a daily basis as medical professionals. Furthermore, you can essentially hold conversations with Siri.  
@@ -61,7 +66,7 @@ If you open up the shortcut to see how it was built, you will find the following
 ```
 <script>
 
-// code adapted courtesy of perinatology.com (not medical advice!)
+// code adapted courtesy of perinatology.com (not medical advi)
 
   function Fmt(x) {
     var v
@@ -203,8 +208,4 @@ Again, here is the code. Feel free to modify as you see fit. Potential uses incl
 The beauty of all these apps is that they are **HIGHLY** customizable. With just a little editing of the above code, you could program all types of algorithms, tables, and dictionaries. For those of you looking to save time on the wards, this might be useful!  
 
 Finally, none of this is real medical advice, and you should always test an app before trusting Siri - but with these simple examples you should be able to make some pretty useful voice-activated tools custom to your medical specialty.  
-
-
-
-
 
