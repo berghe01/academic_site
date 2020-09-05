@@ -29,7 +29,7 @@ name: Eric Bergh, MD
 organizations:
 - name: UT Health, McGovern School of Medicine, Houston, TX
   url: ""
-role: Fetal Intervention Fellow
+role: Fetal Surgeon
 social:
 - icon: envelope
   icon_pack: fas
